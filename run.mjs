@@ -2,7 +2,7 @@ import fs from 'fs'
 import https from 'https'
 
 const source = fs.readFileSync('./input.csv', 'utf8')
-const sectii = source.split('\n')
+const [_head, ...sectii] = source.split('\n')
 
 const procesareSectii = asyncPipe(
     ajustareStatulPentruSectiiConsecutive,
