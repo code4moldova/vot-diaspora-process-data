@@ -1,7 +1,7 @@
 import fs from 'fs'
 import https from 'https'
 
-const source = fs.readFileSync('./input.csv', 'utf8')
+const source = fs.readFileSync('./input.csv', 'utf16le')
 const [_head, ...sectii] = source.split('\n')
 
 const procesareSectii = asyncPipe(
@@ -16,7 +16,7 @@ const sectiiFinale = await procesareSectii(sectii)
 const output = `PollingStationNumber;Latitude;Longitude;County;Address;Locality;Institution
 ${sectiiFinale.join('\n')}`
 
-fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
+fs.writeFileSync('./output.csv', output, { encoding: 'utf16le' })
 
 async function solicitaLocatiePentruAdrese(sectii) {
     const sectiiFinale = []
