@@ -5,11 +5,13 @@ const source = fs.readFileSync('./input.csv', 'utf8')
 const [_head, ...sectii] = source.split('\n')
 
 const procesareSectii = asyncPipe(
+    eliminaSpatiiColoane,
     ajustareStatulPentruSectiiConsecutive,
     ordonareColoanePentruBazaDeDate,
     solicitaLocatiePentruAdrese,
     eliminaSpatiiColoane,
     fixeazaGhilimele,
+    eliminaSpatiiColoane,
 )
 
 const sectiiFinale = await procesareSectii(sectii)
@@ -97,7 +99,7 @@ async function ajustareStatulPentruSectiiConsecutive(sectii) {
     const sectiiAjustate = []
 
     for (let i = 0; i < sectii.length; i++) {
-        const sectie = sectii[i].trim()
+        const sectie = sectii[i]
         if (sectie.startsWith(';')) {
             const sectiePrecedenta = sectiiAjustate[i - 1]
             const [misiunea] = sectiePrecedenta.split(';')
