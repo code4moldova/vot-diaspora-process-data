@@ -3,6 +3,13 @@ import https from 'https'
 import parse from 'csv-parse/lib/sync.js'
 import stringify from 'csv-stringify/lib/sync.js';
 
+const originalLog = console.log
+const logs = []
+console.log = (...args) => {
+    logs.push(args.map(a => JSON.stringify(a)).join(', '))
+    originalLog(...args)
+}
+
 const source = fs.readFileSync('./input.csv')
 const sectii = parse(source, {
     columns: true,
@@ -21,7 +28,11 @@ const procesareSectii = asyncPipe(
 
 const sectiiFinale = await procesareSectii(sectii)
 const output = stringify(sectiiFinale, { header: true })
+const geoJson = creazaGeoJson(sectiiFinale)
+
 fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
+fs.writeFileSync('./output.geojson', JSON.stringify(geoJson, null, 2), { encoding: 'utf8' })
+fs.writeFileSync('./run.log', logs.join('\n'), { encoding: 'utf8' })
 
 async function remapareColoane(sectii) {
     return sectii.map(sectie => ({
@@ -40,9 +51,9 @@ async function solicitaLocatiePentruAdrese(sectii) {
     const sectiiFinale = []
 
     for await (const sectie of sectii) {
-        const { PollingStationNumber, Country, Address, Locality, Institution } = sectie
+        const { PollingStationNumber, County, Address, Locality, Institution } = sectie
 
-        const queryUrl = tomUrl(`${Country} ${Locality} ${Address}`)
+        const queryUrl = tomUrl(`${County} ${Locality} ${Address}`)
         const response = await httpsFetch(queryUrl)
         const position = response?.results?.[0]?.position
 
@@ -51,12 +62,13 @@ async function solicitaLocatiePentruAdrese(sectii) {
         } else {
             console.log(PollingStationNumber, response?.summary?.queryType)
         }
-        
+
         sectiiFinale.push({
             PollingStationNumber,
-            Latitude: position?.lat ?? '',
-            Longitude: position?.lon ?? '',
-            Country,
+            // Defaults to Chisinau
+            Latitude: position?.lat ?? '46.9999648',
+            Longitude: position?.lon ?? '28.7881368',
+            County,
             Address,
             Locality,
             Institution
@@ -126,3 +138,23 @@ function asyncPipe(...functions) {
     return input => functions.reduce((chain, func) => chain.then(func), Promise.resolve(input))
 }
 
+function creazaGeoJson(sectii) {
+    return {
+        type: "FeatureCollection",
+        features: sectii.map(sectie => ({
+            type: "Feature",
+            properties: {
+                type: "node",
+                id: sectie.PollingStationNumber,
+                name: `${sectie.PollingStationNumber}: ${sectie.County} ${sectie.Locality} ${sectie.Address}`,
+            },
+            geometry: {
+                type: "Point",
+                coordinates: [
+                    sectie.Longitude,
+                    sectie.Latitude
+                ]
+            }
+        }))
+    }
+}
