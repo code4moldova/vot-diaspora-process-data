@@ -1,38 +1,46 @@
 import fs from 'fs'
 import https from 'https'
+import parse from 'csv-parse/lib/sync.js'
+import stringify from 'csv-stringify/lib/sync.js';
 
 const fieldDelimiter = `;`
 const stringDelimiter = `"`
+const source = fs.readFileSync('./input.csv')
 
-const source = fs.readFileSync('./input.csv', 'utf8')
-const [_head, ...sectii] = source.split('\n')
+const sectii = parse(source, {
+    columns: true,
+    trim: true,
+    skip_empty_lines: true,
+    delimiter: fieldDelimiter,
+    escape: stringDelimiter
+})
 
 const procesareSectii = asyncPipe(
-    eliminaSpatiiColoane,
+    remapareColoane,
     ajustareStatulPentruSectiiConsecutive,
-    ordonareColoanePentruBazaDeDate,
     // solicitaLocatiePentruAdrese,
-    eliminaSpatiiColoane,
-    fixeazaGhilimele,
-    eliminaSpatiiColoane,
 )
 
 const sectiiFinale = await procesareSectii(sectii)
 
-const headers = [
-    'PollingStationNumber',
-    'Latitude',
-    'Longitude',
-    // Yes it is `County` there, this is DB column name :)
-    'County',
-    'Address',
-    'Locality',
-    'Institution'
-].join(fieldDelimiter)
-
-const output = `${headers}\n${sectiiFinale.join('\n')}`
+const output = stringify(sectiiFinale, {
+    delimiter: fieldDelimiter
+})
 
 fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
+
+async function remapareColoane(sectii) {
+    return sectii.map(sectie => ({
+        PollingStationNumber: sectie['Nr. SV'],
+        Latitude: '',
+        Longitude: '',
+        // Yes it is `County` there, this is DB column name :)
+        County: sectie['Misiunea / Statul'],
+        Address: sectie['Adresa'],
+        Locality: sectie['Localitatea'],
+        Institution: sectie['Localitatea'],
+    }))
+}
 
 async function solicitaLocatiePentruAdrese(sectii) {
     const sectiiFinale = []
@@ -77,21 +85,6 @@ async function solicitaLocatiePentruAdrese(sectii) {
     return sectiiFinale
 }
 
-async function ordonareColoanePentruBazaDeDate(sectii) {
-    return sectii.map(sectie => {
-        const [Country, PollingStationNumber, Locality, Address] = sectie.split(fieldDelimiter)
-
-        return [
-            PollingStationNumber,
-            'NaN', // Latitude
-            'NaN', // Longitude
-            Country,
-            Address,
-            Locality, // Locality
-            Locality // Institution
-        ].join(fieldDelimiter)
-    })
-}
 
 
 /**
@@ -112,55 +105,15 @@ async function ajustareStatulPentruSectiiConsecutive(sectii) {
 
     for (let i = 0; i < sectii.length; i++) {
         const sectie = sectii[i]
-        if (sectie.startsWith(fieldDelimiter)) {
-            const sectiePrecedenta = sectiiAjustate[i - 1]
-            const [misiunea] = sectiePrecedenta.split(fieldDelimiter)
-            const sectieAjustata = `${misiunea}${sectie}`
-            sectiiAjustate.push(sectieAjustata)
-        } else {
-            sectiiAjustate.push(sectie)
-        }
+        sectiiAjustate.push({
+            ...sectie,
+            County: sectie.County.trim() ? sectie.County : sectiiAjustate[i - 1].County,
+        })
     }
 
     return sectiiAjustate
 }
 
-async function eliminaSpatiiColoane(sectii) {
-    return sectii.map(sectie => sectie
-        .split(fieldDelimiter)
-        .map(coloana => coloana.trim())
-        .join(fieldDelimiter)
-    )
-}
-
-async function fixeazaGhilimele(sectii) {
-    return sectii.map(sectie => sectie
-        .split(fieldDelimiter)
-        .map(coloana => existaGhilimeleInParti(coloana) ? eliminaPrimulSiUltimulCaracter(coloana) : coloana)
-        // pahod GitHub nu intelege double quotes
-        .map(coloana => coloana.replace(/""/g, `'`).replace(/"/g, `'`))
-        .map(coloana => `"${coloana}"`)
-        .join(fieldDelimiter)
-    )
-}
-
-// blea pote folosim un CSV parser ))
-
-function inlocuesteGhilimelele(coloana, cu = '') {
-    return coloana.replace(new RegExp(stringDelimiter, 'g'), cu)
-}
-
-function existaGhilimeleDoarInParti(coloana) {
-    return existaGhilimeleInParti(coloana) && (coloana.match(new RegExp(stringDelimiter, 'g')) || []).length === 2
-}
-
-function existaGhilimeleInParti(coloana) {
-    return coloana.startsWith(stringDelimiter) && coloana.endsWith(stringDelimiter)
-}
-
-function eliminaPrimulSiUltimulCaracter(coloana) {
-    return coloana.slice(1, coloana.length - 1)
-}
 
 function tomUrl(query) {
     const api = process.env.TOMTOM_API

@@ -1,0 +1,23 @@
+{
+  "name": "sectii",
+  "version": "1.0.0",
+  "description": "Process csv data for [vot-diaspora-api](https://github.com/code4moldova/vot-diaspora-api) sqlite",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4moldova/vot-diaspora-process-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code4moldova/vot-diaspora-process-data/issues"
+  },
+  "homepage": "https://github.com/code4moldova/vot-diaspora-process-data#readme",
+  "dependencies": {
+    "csv": "^5.5.0"
+  }
+}
