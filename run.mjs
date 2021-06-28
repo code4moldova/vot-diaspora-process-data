@@ -9,6 +9,7 @@ const procesareSectii = asyncPipe(
     ordonareColoanePentruBazaDeDate,
     solicitaLocatiePentruAdrese,
     eliminaSpatiiColoane,
+    fixeazaGhilimele,
 )
 
 const sectiiFinale = await procesareSectii(sectii)
@@ -116,6 +117,26 @@ async function eliminaSpatiiColoane(sectii) {
         .map(coloana => coloana.trim())
         .join(';')
     )
+}
+
+async function fixeazaGhilimele(sectii) {
+    return sectii.map(sectie => sectie
+        .split(';')
+        .map(coloana => existaGhilimeleDoarInParti(coloana)
+            ? eliminaGhilimele(coloana)
+            : coloana
+        )
+        .join(';')
+    )
+}
+
+function eliminaGhilimele(coloana) {
+    return coloana.replace(/\"/g, '')
+}
+
+function existaGhilimeleDoarInParti(coloana) {
+    const startsEnds = coloana.startsWith('"') && coloana.endsWith('"')
+    return startsEnds && (coloana.match(/\"/g) || []).length === 2
 }
 
 function tomUrl(query) {
