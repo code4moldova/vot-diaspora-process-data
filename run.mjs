@@ -8,6 +8,7 @@ const procesareSectii = asyncPipe(
     ajustareStatulPentruSectiiConsecutive,
     ordonareColoanePentruBazaDeDate,
     solicitaLocatiePentruAdrese,
+    eliminaSpatiiColoane,
 )
 
 const sectiiFinale = await procesareSectii(sectii)
@@ -62,7 +63,7 @@ async function solicitaLocatiePentruAdrese(sectii) {
 }
 
 async function ordonareColoanePentruBazaDeDate(sectii) {
-    const sectiiFixate = sectii.map(sectie => {
+    return sectii.map(sectie => {
         const [Country, PollingStationNumber, Locality, Address] = sectie.split(';')
 
         return [
@@ -75,8 +76,6 @@ async function ordonareColoanePentruBazaDeDate(sectii) {
             Locality // Institution
         ].join(';')
     })
-
-    return sectiiFixate
 }
 
 
@@ -109,6 +108,14 @@ async function ajustareStatulPentruSectiiConsecutive(sectii) {
     }
 
     return sectiiAjustate
+}
+
+async function eliminaSpatiiColoane(sectii) {
+    return sectii.map(sectie => sectie
+        .split(';')
+        .map(coloana => coloana.trim())
+        .join(';')
+    )
 }
 
 function tomUrl(query) {
