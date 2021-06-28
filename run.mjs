@@ -3,32 +3,24 @@ import https from 'https'
 import parse from 'csv-parse/lib/sync.js'
 import stringify from 'csv-stringify/lib/sync.js';
 
-const fieldDelimiter = `;`
-const stringDelimiter = `"`
 const source = fs.readFileSync('./input.csv')
-
 const sectii = parse(source, {
     columns: true,
     trim: true,
     skip_empty_lines: true,
-    delimiter: fieldDelimiter,
-    escape: stringDelimiter
+    delimiter: `;`,
+    escape: `"`,
+    quote: `"`
 })
 
 const procesareSectii = asyncPipe(
     remapareColoane,
     ajustareStatulPentruSectiiConsecutive,
-    // solicitaLocatiePentruAdrese,
+    solicitaLocatiePentruAdrese,
 )
 
 const sectiiFinale = await procesareSectii(sectii)
-
-const output = stringify(sectiiFinale, {
-    header: true,
-    delimiter: fieldDelimiter,
-    quote
-})
-
+const output = stringify(sectiiFinale, { header: true })
 fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
 
 async function remapareColoane(sectii) {
@@ -48,19 +40,10 @@ async function solicitaLocatiePentruAdrese(sectii) {
     const sectiiFinale = []
 
     for await (const sectie of sectii) {
-        const [
-            PollingStationNumber,
-            _FakeLatitude,
-            _FakeLongitude,
-            Country,
-            Address,
-            Locality,
-            Institution
-        ] = sectie.split(fieldDelimiter)
+        const { PollingStationNumber, Country, Address, Locality, Institution } = sectie
 
         const queryUrl = tomUrl(`${Country} ${Locality} ${Address}`)
         const response = await httpsFetch(queryUrl)
-
         const position = response?.results?.[0]?.position
 
         if (position) {
@@ -68,17 +51,16 @@ async function solicitaLocatiePentruAdrese(sectii) {
         } else {
             console.log(PollingStationNumber, response?.summary?.queryType)
         }
-
-        const statieCuLocatie = [
+        
+        sectiiFinale.push({
             PollingStationNumber,
-            position?.lat ?? '',
-            position?.lon ?? '',
+            Latitude: position?.lat ?? '',
+            Longitude: position?.lon ?? '',
             Country,
             Address,
             Locality,
             Institution
-        ]
-        sectiiFinale.push(statieCuLocatie.join(fieldDelimiter))
+        })
 
         // let's not spam the server
         await sleep(500)
@@ -86,8 +68,6 @@ async function solicitaLocatiePentruAdrese(sectii) {
 
     return sectiiFinale
 }
-
-
 
 /**
  * Ajusteaza statul pentru sectiile consecutive din acelasi stat
