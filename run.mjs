@@ -11,7 +11,7 @@ const procesareSectii = asyncPipe(
     eliminaSpatiiColoane,
     ajustareStatulPentruSectiiConsecutive,
     ordonareColoanePentruBazaDeDate,
-    solicitaLocatiePentruAdrese,
+    // solicitaLocatiePentruAdrese,
     eliminaSpatiiColoane,
     fixeazaGhilimele,
     eliminaSpatiiColoane,
@@ -136,21 +136,30 @@ async function eliminaSpatiiColoane(sectii) {
 async function fixeazaGhilimele(sectii) {
     return sectii.map(sectie => sectie
         .split(fieldDelimiter)
-        .map(coloana => existaGhilimeleDoarInParti(coloana)
-            ? eliminaGhilimele(coloana)
-            : coloana
-        )
+        .map(coloana => existaGhilimeleInParti(coloana) ? eliminaPrimulSiUltimulCaracter(coloana) : coloana)
+        // pahod GitHub nu intelege double quotes
+        .map(coloana => coloana.replace(/""/g, `'`).replace(/"/g, `'`))
+        .map(coloana => `"${coloana}"`)
         .join(fieldDelimiter)
     )
 }
 
-function eliminaGhilimele(coloana) {
-    return coloana.replace(new RegExp(stringDelimiter, 'g'), '')
+// blea pote folosim un CSV parser ))
+
+function inlocuesteGhilimelele(coloana, cu = '') {
+    return coloana.replace(new RegExp(stringDelimiter, 'g'), cu)
 }
 
 function existaGhilimeleDoarInParti(coloana) {
-    const startsEnds = coloana.startsWith(stringDelimiter) && coloana.endsWith(stringDelimiter)
-    return startsEnds && (coloana.match(new RegExp(stringDelimiter, 'g')) || []).length === 2
+    return existaGhilimeleInParti(coloana) && (coloana.match(new RegExp(stringDelimiter, 'g')) || []).length === 2
+}
+
+function existaGhilimeleInParti(coloana) {
+    return coloana.startsWith(stringDelimiter) && coloana.endsWith(stringDelimiter)
+}
+
+function eliminaPrimulSiUltimulCaracter(coloana) {
+    return coloana.slice(1, coloana.length - 1)
 }
 
 function tomUrl(query) {
