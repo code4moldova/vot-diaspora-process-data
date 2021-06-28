@@ -1,6 +1,9 @@
 import fs from 'fs'
 import https from 'https'
 
+const fieldDelimiter = `;`
+const stringDelimiter = `"`
+
 const source = fs.readFileSync('./input.csv', 'utf8')
 const [_head, ...sectii] = source.split('\n')
 
@@ -16,9 +19,18 @@ const procesareSectii = asyncPipe(
 
 const sectiiFinale = await procesareSectii(sectii)
 
-// Yes it is `County` there, this is DB column name :)
-const output = `PollingStationNumber;Latitude;Longitude;County;Address;Locality;Institution
-${sectiiFinale.join('\n')}`
+const headers = [
+    'PollingStationNumber',
+    'Latitude',
+    'Longitude',
+    // Yes it is `County` there, this is DB column name :)
+    'County',
+    'Address',
+    'Locality',
+    'Institution'
+].join(fieldDelimiter)
+
+const output = `${headers}\n${sectiiFinale.join('\n')}`
 
 fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
 
@@ -34,7 +46,7 @@ async function solicitaLocatiePentruAdrese(sectii) {
             Address,
             Locality,
             Institution
-        ] = sectie.split(';')
+        ] = sectie.split(fieldDelimiter)
 
         const queryUrl = tomUrl(`${Country} ${Locality} ${Address}`)
         const response = await httpsFetch(queryUrl)
@@ -56,7 +68,7 @@ async function solicitaLocatiePentruAdrese(sectii) {
             Locality,
             Institution
         ]
-        sectiiFinale.push(statieCuLocatie.join(';'))
+        sectiiFinale.push(statieCuLocatie.join(fieldDelimiter))
 
         // let's not spam the server
         await sleep(500)
@@ -67,7 +79,7 @@ async function solicitaLocatiePentruAdrese(sectii) {
 
 async function ordonareColoanePentruBazaDeDate(sectii) {
     return sectii.map(sectie => {
-        const [Country, PollingStationNumber, Locality, Address] = sectie.split(';')
+        const [Country, PollingStationNumber, Locality, Address] = sectie.split(fieldDelimiter)
 
         return [
             PollingStationNumber,
@@ -77,7 +89,7 @@ async function ordonareColoanePentruBazaDeDate(sectii) {
             Address,
             Locality, // Locality
             Locality // Institution
-        ].join(';')
+        ].join(fieldDelimiter)
     })
 }
 
@@ -100,9 +112,9 @@ async function ajustareStatulPentruSectiiConsecutive(sectii) {
 
     for (let i = 0; i < sectii.length; i++) {
         const sectie = sectii[i]
-        if (sectie.startsWith(';')) {
+        if (sectie.startsWith(fieldDelimiter)) {
             const sectiePrecedenta = sectiiAjustate[i - 1]
-            const [misiunea] = sectiePrecedenta.split(';')
+            const [misiunea] = sectiePrecedenta.split(fieldDelimiter)
             const sectieAjustata = `${misiunea}${sectie}`
             sectiiAjustate.push(sectieAjustata)
         } else {
@@ -115,30 +127,30 @@ async function ajustareStatulPentruSectiiConsecutive(sectii) {
 
 async function eliminaSpatiiColoane(sectii) {
     return sectii.map(sectie => sectie
-        .split(';')
+        .split(fieldDelimiter)
         .map(coloana => coloana.trim())
-        .join(';')
+        .join(fieldDelimiter)
     )
 }
 
 async function fixeazaGhilimele(sectii) {
     return sectii.map(sectie => sectie
-        .split(';')
+        .split(fieldDelimiter)
         .map(coloana => existaGhilimeleDoarInParti(coloana)
             ? eliminaGhilimele(coloana)
             : coloana
         )
-        .join(';')
+        .join(fieldDelimiter)
     )
 }
 
 function eliminaGhilimele(coloana) {
-    return coloana.replace(/\"/g, '')
+    return coloana.replace(new RegExp(stringDelimiter, 'g'), '')
 }
 
 function existaGhilimeleDoarInParti(coloana) {
-    const startsEnds = coloana.startsWith('"') && coloana.endsWith('"')
-    return startsEnds && (coloana.match(/\"/g) || []).length === 2
+    const startsEnds = coloana.startsWith(stringDelimiter) && coloana.endsWith(stringDelimiter)
+    return startsEnds && (coloana.match(new RegExp(stringDelimiter, 'g')) || []).length === 2
 }
 
 function tomUrl(query) {
@@ -149,16 +161,16 @@ function tomUrl(query) {
 function httpsFetch(url) {
     return new Promise((resolve, reject) => {
         https.get(url, res => {
-            res.setEncoding("utf8");
-            let body = "";
+            res.setEncoding("utf8")
+            let body = ""
 
             res.on("data", data => {
-                body += data;
-            });
+                body += data
+            })
 
-            res.on("end", () => resolve(JSON.parse(body)));
-            res.on("error", (e) => reject(e));
-        });
+            res.on("end", () => resolve(JSON.parse(body)))
+            res.on("error", (e) => reject(e))
+        })
     })
 }
 
@@ -167,6 +179,6 @@ function sleep(ms) {
 }
 
 function asyncPipe(...functions) {
-    return input => functions.reduce((chain, func) => chain.then(func), Promise.resolve(input));
+    return input => functions.reduce((chain, func) => chain.then(func), Promise.resolve(input))
 }
 
