@@ -24,7 +24,9 @@ const procesareSectii = asyncPipe(
 const sectiiFinale = await procesareSectii(sectii)
 
 const output = stringify(sectiiFinale, {
-    delimiter: fieldDelimiter
+    header: true,
+    delimiter: fieldDelimiter,
+    quote
 })
 
 fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
