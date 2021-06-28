@@ -25,14 +25,14 @@ fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
 
 async function remapareColoane(sectii) {
     return sectii.map(sectie => ({
-        PollingStationNumber: sectie['Nr. SV'],
+        PollingStationNumber: sectie['Nr. SV'].trim(),
         Latitude: '',
         Longitude: '',
         // Yes it is `County` there, this is DB column name :)
-        County: sectie['Misiunea / Statul'],
-        Address: sectie['Adresa'],
-        Locality: sectie['Localitatea'],
-        Institution: sectie['Localitatea'],
+        County: sectie['Misiunea / Statul'].trim(),
+        Address: sectie['Adresa'].trim(),
+        Locality: sectie['Localitatea'].trim(),
+        Institution: sectie['Localitatea'].trim(),
     }))
 }
 
