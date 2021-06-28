@@ -35,7 +35,8 @@ fs.writeFileSync('./output.geojson', JSON.stringify(geoJson, null, 2), { encodin
 fs.writeFileSync('./run.log', logs.join('\n'), { encoding: 'utf8' })
 
 async function remapareColoane(sectii) {
-    return sectii.map(sectie => ({
+    return sectii.map((sectie, index) => ({
+        Id: index + 1,
         PollingStationNumber: sectie['Nr. SV'].trim(),
         Latitude: '',
         Longitude: '',
@@ -51,7 +52,7 @@ async function solicitaLocatiePentruAdrese(sectii) {
     const sectiiFinale = []
 
     for await (const sectie of sectii) {
-        const { PollingStationNumber, County, Address, Locality, Institution } = sectie
+        const { Id, PollingStationNumber, County, Address, Locality, Institution } = sectie
 
         const queryUrl = tomUrl(`${County} ${Locality} ${Address}`)
         const response = await httpsFetch(queryUrl)
@@ -64,6 +65,7 @@ async function solicitaLocatiePentruAdrese(sectii) {
         }
 
         sectiiFinale.push({
+            Id,
             PollingStationNumber,
             // Defaults to Chisinau
             Latitude: position?.lat ?? '46.9999648',
