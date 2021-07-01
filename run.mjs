@@ -6,6 +6,16 @@ const data = JSON.parse(fs.readFileSync('./input.geojson'))
 
 const sectiiFinale = data.features
     .sort((a, b) => a.properties.Sectia_de_vot - b.properties.Sectia_de_vot)
+    .map((feature, index, array) => ({
+        ...feature,
+        properties: {
+            ...feature.properties,
+            // In case country is missing, and between 2 identical, use them (make sure array is sorted, by station number)
+            Tara: !feature.properties.Tara && array[index - 1]?.properties.Tara === array[index + 1]?.properties.Tara
+                ? array[index - 1].properties.Tara
+                : feature.properties.Tara
+        }
+    }))
     .map((feature, index) => {
         const [Longitude, Latitude] = feature.geometry.coordinates
         const { Tara, Adresa, Sectia_de_vot, Localitatea_diaspora } = feature.properties
