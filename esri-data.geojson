@@ -1,0 +1,5500 @@
+{
+  "objectIdFieldName" : "OBJECTID_1", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID_1", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "GlobalID", 
+  "geometryType" : "esriGeometryPoint", 
+  "spatialReference" : {
+    "wkid" : 3395, 
+    "latestWkid" : 3395
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID_1", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID_1", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Raion", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Raion", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Comuna", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Comuna", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GlobalID", 
+      "type" : "esriFieldTypeGlobalID", 
+      "alias" : "GlobalID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 38, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Localul", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Localul", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 150, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Adresa", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Adresa", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 150, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PoolingstationID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "PoolingstationID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "name", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "name", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "nameRu", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "nameRu", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "name1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "name1", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "nameRu1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "nameRu1", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "geoLatitude", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "geoLatitude", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "geoLongitude", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "geoLongitude", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BESV", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BESV", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Sectia_de_vot", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Sectia_de_vot", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GlobalID_1", 
+      "type" : "esriFieldTypeGUID", 
+      "alias" : "GlobalID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 38, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Circumscriptia_electorala_1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Circumscriptia_electorala", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 250, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Telefon_1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Telefon", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "lincul", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "lincul", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Tara", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Tara", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Localitatea_diaspora", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Localitatea_diaspora", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "link", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "link", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 500, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Link_1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Link_1", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 255, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Circum_sectia", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Circum_sectia", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 150, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BESV_diaspora", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "BESV_diaspora", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 100, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2001, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "30d27e03-1d53-4d6d-b9ac-040c1874424a", 
+        "Localul" : null, 
+        "Adresa" : "Löwengasse 47, 1030, Viena", 
+        "PoolingstationID" : "2008", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "1", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Austria", 
+        "Localitatea_diaspora" : "or. Viena (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Austria or. Viena (sediul misiunii) Nr secției 1"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1825003.8406000026, 
+        "y" : 6109451.7310000062
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2002, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "3b2d9fab-eb9f-4859-94ac-12b1ab4db491", 
+        "Localul" : null, 
+        "Adresa" : "Baku, bl.Huseyn Javid, 520, bl.12", 
+        "PoolingstationID" : "2024", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "2", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Azerbaidjan", 
+        "Localitatea_diaspora" : "or. Baku (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Azerbaidjan or. Baku (sediul misiunii) Nr secției 2"
+      }, 
+      "geometry" : 
+      {
+        "x" : 5545716.4038000032, 
+        "y" : 4891901.428199999
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2003, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "0a7278a6-29e9-4c3a-b36c-a206fb3723d2", 
+        "Localul" : null, 
+        "Adresa" : "Minsk, 220030, str. Belarusskaia nr.2", 
+        "PoolingstationID" : "2016", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "3", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Belarus", 
+        "Localitatea_diaspora" : "or. Minsk (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Belarus or. Minsk (sediul misiunii) Nr secției 3"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3068082.3192000017, 
+        "y" : 7115459.71890001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2004, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ee885ead-0f5d-45db-8f90-902f3361af3a", 
+        "Localul" : null, 
+        "Adresa" : "avenue Franklin Roosevelt 57, 1050", 
+        "PoolingstationID" : "2017", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "4", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Belgiei", 
+        "Localitatea_diaspora" : "or. Bruxelles (sediul Ambasadei)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Belgiei or. Bruxelles (sediul Ambasadei) Nr secției 4"
+      }, 
+      "geometry" : 
+      {
+        "x" : 487982.182599999, 
+        "y" : 6554368.2474000007
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2005, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f6cc98fe-8932-47c3-a445-741e306d8783", 
+        "Localul" : null, 
+        "Adresa" : "avenue Franklin Roosevelt 55, 1050", 
+        "PoolingstationID" : "2018", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "5", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Belgiei", 
+        "Localitatea_diaspora" : "or. Bruxelles (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Belgiei or. Bruxelles (sediul misiunii) Nr secției 5"
+      }, 
+      "geometry" : 
+      {
+        "x" : 487975.56799999997, 
+        "y" : 6554380.8153000027
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2006, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "53217a26-122d-453c-94c3-900685a30b12", 
+        "Localul" : null, 
+        "Adresa" : "1142, str. Georgi Sava Rakovski nr.152.", 
+        "PoolingstationID" : "2141", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "6", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Bulgară", 
+        "Localitatea_diaspora" : "or. Sofia (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Bulgară or. Sofia (sediul misiunii) Nr secției 6"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2596275.1096000038, 
+        "y" : 5235517.74090001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2007, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5494acc4-fdad-402a-b24d-ff33cf1bc767", 
+        "Localul" : null, 
+        "Adresa" : "275 Slater Street, Suite 801, Ottawa, ON K1P 5H9", 
+        "PoolingstationID" : "2142", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "7", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Canada", 
+        "Localitatea_diaspora" : "or. Ottawa, ON (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Canada or. Ottawa, ON (sediul misiunii) Nr secției 7"
+      }, 
+      "geometry" : 
+      {
+        "x" : -8427062.9385999963, 
+        "y" : 5657246.63440001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2008, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ea0d1cc9-e175-4071-ac9d-3860252114e9", 
+        "Localul" : null, 
+        "Adresa" : "1170 Sheppard Avenue West, Unit 15, Toronto ON, M3K 2A3", 
+        "PoolingstationID" : "2143", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "10", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Canada", 
+        "Localitatea_diaspora" : "or. Toronto, ON", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Canada or. Toronto, ON Nr secției 10"
+      }, 
+      "geometry" : 
+      {
+        "x" : -8846727.2204, 
+        "y" : 5398149.1617000028
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2009, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6bc96675-f619-4627-a793-284676bc92b2", 
+        "Localul" : null, 
+        "Adresa" : "Hotel Terrasse Royal/5225 Côte-des-Neiges, Montréal, QC H3T 1Y", 
+        "PoolingstationID" : "2019", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "9", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Canada", 
+        "Localitatea_diaspora" : "or. Montreal, QC", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Canada or. Montreal, QC Nr secției 9"
+      }, 
+      "geometry" : 
+      {
+        "x" : -8195421.1786000021, 
+        "y" : 5669441.2515999973
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2010, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "26d5e57e-6b4c-4359-9790-1cbcc3afde92", 
+        "Localul" : null, 
+        "Adresa" : "North Glenmore Park Community Association, 2231 Longridge Drive SW, Calgary, T3E 5N5", 
+        "PoolingstationID" : "2020", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "8", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Canada", 
+        "Localitatea_diaspora" : "or. Calgary", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Canada or. Calgary Nr secției 8"
+      }, 
+      "geometry" : 
+      {
+        "x" : -12702902.2874, 
+        "y" : 6587739.0777999982
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2011, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "4d951b30-4a71-462d-bac1-18dec6e0453b", 
+        "Localul" : null, 
+        "Adresa" : "str. Juárezova 14, 16000, Praga 6 - Bubeneč", 
+        "PoolingstationID" : "328", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "11", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Cehă", 
+        "Localitatea_diaspora" : "or. Praga (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Cehă or. Praga (sediul misiunii) Nr secției 11"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1603288.2256000005, 
+        "y" : 6432080.5551000088
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2012, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "cd6bd218-9359-4eff-b671-9f0408a8b903", 
+        "Localul" : null, 
+        "Adresa" : "100600 Beijing,  Chaoyang District,  Liangmahe South Road 14,  Ta Yuan Diplomatic Office Building 2-9-1", 
+        "PoolingstationID" : "331", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "12", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Populară Chineză", 
+        "Localitatea_diaspora" : "or. Beijing (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Populară Chineză or. Beijing (sediul misiunii) Nr secției 12"
+      }, 
+      "geometry" : 
+      {
+        "x" : 12962636.634900007, 
+        "y" : 4830382.1251000166
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2013, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8861dcb3-ae3e-47e3-9cc3-d5f92c0f8f63", 
+        "Localul" : null, 
+        "Adresa" : "sec. Nea Filothei, str. Geor. Mpakou 20 C.P. 115 24", 
+        "PoolingstationID" : "2025", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "15", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Elenă", 
+        "Localitatea_diaspora" : "or. Atena (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Elenă or. Atena (sediul misiunii) Nr secției 15"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2645660.5251, 
+        "y" : 4553006.4019000083
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2014, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "10a1c9e8-4ac9-45dd-ab15-493346ec7838", 
+        "Localul" : null, 
+        "Adresa" : "Avenue de France 23, 1202. Geneva", 
+        "PoolingstationID" : "2027", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "16", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Confederația Elvețiană", 
+        "Localitatea_diaspora" : "or. Geneva (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Confederația Elvețiană or. Geneva (sediul misiunii) Nr secției 16"
+      }, 
+      "geometry" : 
+      {
+        "x" : 683922.634700004, 
+        "y" : 5784812.707100004
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2015, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8cf130ea-89d0-47f2-80ff-fdd2f06aac73", 
+        "Localul" : null, 
+        "Adresa" : "Vila Nr. 20, St. Al Darahy, Mushrif, Abu Dhabi, C.P. 31705", 
+        "PoolingstationID" : "2028", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "17", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Emiratele Arabe Unite", 
+        "Localitatea_diaspora" : "or. Abu Dhabi (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Emiratele Arabe Unite or. Abu Dhabi (sediul misiunii) Nr secției 17"
+      }, 
+      "geometry" : 
+      {
+        "x" : 6054414.7871000022, 
+        "y" : 2790013.014700003
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2016, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "7cfe7909-d654-48c6-8fa9-d95d4ea8f0e9", 
+        "Localul" : null, 
+        "Adresa" : "str.Tatari 20,10116, Tallinn", 
+        "PoolingstationID" : "2119", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "18", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republică Estonia", 
+        "Localitatea_diaspora" : "or. Tallinn (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republică Estonia or. Tallinn (sediul misiunii) Nr secției 18"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2754850.2234000005, 
+        "y" : 8237051.7995999977
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2017, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "bedc88a7-48f8-49c0-ab70-a9423fa3d75e", 
+        "Localul" : null, 
+        "Adresa" : "Sediul Ambasadei. Str. Rojdestvenka 7, statia de metrou Kuznețkii Most", 
+        "PoolingstationID" : "2114", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "19", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Moscova (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Moscova (sediul misiunii) Nr secției 19"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4188134.6196999997, 
+        "y" : 7475806.9138000086
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2018, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ba76eec5-83b2-4f9e-9f3c-517688e685f3", 
+        "Localul" : null, 
+        "Adresa" : "Institutul de Arhitectură din Moscova, str.Rojdestvenka 11/4, cladirea 1/4, ул. Рождественка, 11/4 корпус 1 строение 4:", 
+        "PoolingstationID" : "2117", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "20", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Moscova Nr secției 20"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4188123.0441999994, 
+        "y" : 7476142.9353000075
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2019, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "0b8bf8af-c854-40e7-8301-48c4ac6c6940", 
+        "Localul" : null, 
+        "Adresa" : "or.Moscova,  Casa centrală a oamenilor de arta,  str. Pusecinaia 9/6 cl. 1, statia de metrou Kuznețkii Most", 
+        "PoolingstationID" : "325", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "21", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Moscova Nr secției 21"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4188350.4788000025, 
+        "y" : 7475636.7698000073
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2020, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "bfc4c95b-81e2-4570-8b9d-d557157edb3d", 
+        "Localul" : null, 
+        "Adresa" : "or. Moscova Complexul educațional de planificare urbana \"Capitala\", str. Profsoiuznaia, 154, cladirea 7 ул. Профсоюзная, 154 корпус 7", 
+        "PoolingstationID" : "326", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "22", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Moscova Nr secției 22"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4174388.7852000035, 
+        "y" : 7448654.6397999972
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2021, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "73ae4b89-dfa4-43f3-8f32-5f32d0b8e1f4", 
+        "Localul" : null, 
+        "Adresa" : "reg. Moscova, or. Mîtisci, str. Silikatnaia nr. 12 Casa de cultură a tineretului", 
+        "PoolingstationID" : "2120", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "24", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova Nr secției 24"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4204968.6384, 
+        "y" : 7508669.4036
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2022, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "7276a973-10f2-4f42-a0c0-b967601b150c", 
+        "Localul" : null, 
+        "Adresa" : "reg. Moscova, or. Odintovo, scoala nr. 5, str. Vokzalnaia st.5", 
+        "PoolingstationID" : "2230", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "25", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova Nr secției 25"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4150387.8539000042, 
+        "y" : 7458587.4883999974
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2023, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f1720c8b-9013-433b-a469-03fb51ae53f1", 
+        "Localul" : null, 
+        "Adresa" : "or. Domodedovo, Sovhozul numelui lui V.I. Lenin, Casa cultura, cl.7, stația de metrou Domodedovscaia , auto 44, 308, 364, 404.", 
+        "PoolingstationID" : "2021", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "23", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova Nr secției 23"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4171206.9217413068, 
+        "y" : 7444127.3519601226
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2024, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "d7cdb798-1908-4cfe-8c13-d40cb17a25fd", 
+        "Localul" : null, 
+        "Adresa" : "Калуга, Народный Дом, ул. Ленна 74\r", 
+        "PoolingstationID" : "2032", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "35", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Sankt-Petersburg", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Sankt-Petersburg Nr secției 35"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4036912.0535283946, 
+        "y" : 7233575.0549705625
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2025, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "fc3d549e-91c1-4837-a27d-9f92231f53a7", 
+        "Localul" : null, 
+        "Adresa" : "or. Sankt-Petersburg (nord)   Casa de cultură str. Smoleacikova nr. 13", 
+        "PoolingstationID" : "2029", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "32", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Sankt-Petersburg", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Sankt-Petersburg Nr secției 32"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3377817.9305000007, 
+        "y" : 8356199.1278999969
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2026, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8b355972-4df8-4605-a211-f1603782eb3e", 
+        "Localul" : null, 
+        "Adresa" : "strBlagodatnaia nr 20 Biblioteca specializată literatură juridică și economică Благодатная ул., 20", 
+        "PoolingstationID" : "2030", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "33", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Sankt-Petersburg", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Sankt-Petersburg Nr secției 33"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3374751.0720000006, 
+        "y" : 8335251.4834000021
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2027, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "bf7245fc-06ea-45dd-b2be-31ff5d567b39", 
+        "Localul" : null, 
+        "Adresa" : "Московская обл. Ленинский г.о.,поселок развилка,32.,Развиловская библиотека", 
+        "PoolingstationID" : "2036", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "26", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova, Federaţia Rusă", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova, Federaţia Rusă Nr secției 26"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4202595.8562870026, 
+        "y" : 7441733.6087316871
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2028, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5c4dca49-48c5-4dbf-9704-74821b2b8f06", 
+        "Localul" : null, 
+        "Adresa" : "г.Химки, Горшина,5а, школа нр.27", 
+        "PoolingstationID" : "2037", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "27", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova, Federaţia Rusă", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova, Federaţia Rusă Nr secției 27"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4166646.3918216191, 
+        "y" : 7500261.361837
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2029, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "c34cae5f-2456-4e92-8f10-78ad74745af4", 
+        "Localul" : null, 
+        "Adresa" : "Sala  de concert orășenească str. Sovețkaia 2 ул. Советская, 2", 
+        "PoolingstationID" : "2033", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "34", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Tula", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Tula Nr secției 34"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4187006.8572999984, 
+        "y" : 7173499.6001999974
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2030, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "9fd82b31-69a9-44b7-8808-a54008a16eb4", 
+        "Localul" : null, 
+        "Adresa" : "г.Люберцы, Октябрьский проспект, 200,ДК\r", 
+        "PoolingstationID" : "2009", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "29", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova Nr secției 29"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4218738.6010532156, 
+        "y" : 7458892.3343698457
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2031, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "391b13eb-c4bc-4a46-825c-5cb3aa6bf277", 
+        "Localul" : null, 
+        "Adresa" : "г.Красногорск, Игната Титова, 10, школа нр.19\r", 
+        "PoolingstationID" : "2010", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "30", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Kostroma", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Kostroma Nr secției 30"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4160191.6452299431, 
+        "y" : 7487293.02721443
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2032, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "16971bf8-2511-489b-a304-1de2830da850", 
+        "Localul" : null, 
+        "Adresa" : "г.Чехов, Чехова, 45, КТЦ Дружба", 
+        "PoolingstationID" : "2031", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "28", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "Regiunea Moscova, Federaţia Rusă", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă Regiunea Moscova, Federaţia Rusă Nr secției 28"
+      }, 
+      "geometry" : 
+      {
+        "x" : 4170927.4362847507, 
+        "y" : 7355002.752351813
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2033, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "cbd60446-9200-410f-95e3-d4f195ab1301", 
+        "Localul" : null, 
+        "Adresa" : "Санкт Петербург, Мoховая, 15а, Дом национальностей. ", 
+        "PoolingstationID" : "2112", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "31", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Federaţia Rusă", 
+        "Localitatea_diaspora" : "or. Sankt-Petersburg, Federaţia Rusă", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Federaţia Rusă or. Sankt-Petersburg, Federaţia Rusă Nr secției 31"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3377952.5981993079, 
+        "y" : 8350276.56493856
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2034, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "1f3bc58e-e06e-412e-b514-17a62a74f206", 
+        "Localul" : null, 
+        "Adresa" : "Salle Roger Delmas, 3 rue de Toulon,94140 Alfortville\r", 
+        "PoolingstationID" : "2249", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "39", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Paris (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Paris (sediul misiunii) Nr secției 39"
+      }, 
+      "geometry" : 
+      {
+        "x" : 270452.1859411262, 
+        "y" : 6206656.8063349426
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2035, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5d5f8c89-fb75-42f1-8acd-b1008e551838", 
+        "Localul" : null, 
+        "Adresa" : "76 Allee de la Robertsau, 67000 Strasbourg - Association Parlementaire Européenne", 
+        "PoolingstationID" : "2223\r\n2223\r\n2223\r\n2223", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "42", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Strasbourg", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Strasbourg Nr secției 42"
+      }, 
+      "geometry" : 
+      {
+        "x" : 864961.80620000139, 
+        "y" : 6173812.1594000012
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2036, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ac101206-c943-49a6-99b2-5300b2fcdd43", 
+        "Localul" : null, 
+        "Adresa" : "28-30 rue d'Aubervilliers, 75019 Paris", 
+        "PoolingstationID" : "2034", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "38", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Villeneuve-Saint-Georges", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Villeneuve-Saint-Georges Nr secției 38"
+      }, 
+      "geometry" : 
+      {
+        "x" : 263410.67588676885, 
+        "y" : 6223282.4544895291
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2037, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "e277de0b-4486-4106-b00b-8bf03881fdf7", 
+        "Localul" : null, 
+        "Adresa" : "16-20 rue des Batignolles, 75017 Paris (incinta Primăriei sectorul 17)\r", 
+        "PoolingstationID" : "2145", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "37", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Paris și regiunea orașului Paris", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Paris și regiunea orașului Paris Nr secției 37"
+      }, 
+      "geometry" : 
+      {
+        "x" : 258447.8708801195, 
+        "y" : 6223109.3553551584
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2038, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "2d9f3c27-3b1a-4e80-a270-2ec97cfea73a", 
+        "Localul" : null, 
+        "Adresa" : "1, Esplanade Kennedy, 06364 Nice Cedex 4", 
+        "PoolingstationID" : "2233", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "45", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Nice", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Nice Nr secției 45"
+      }, 
+      "geometry" : 
+      {
+        "x" : 810575.6763529107, 
+        "y" : 5390429.6323476136
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2039, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "3fc145aa-c964-40cf-80b9-3c0c5b667a24", 
+        "Localul" : null, 
+        "Adresa" : "Espace Jean Couty, 1, rue de la Pépinière Royale, 69009 Lyon", 
+        "PoolingstationID" : "2144", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "44", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Lyon", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Lyon Nr secției 44"
+      }, 
+      "geometry" : 
+      {
+        "x" : 534793.81540000066, 
+        "y" : 5712476.6118
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2040, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "438bbc01-fad2-4cd7-997a-b760f69788c8", 
+        "Localul" : null, 
+        "Adresa" : "Bordeaux –  Salle MALBEC Nansouty,  250 rue Malbec, 33000 Bordeaux", 
+        "PoolingstationID" : "2232", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "43", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Bordeaux", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Bordeaux Nr secției 43"
+      }, 
+      "geometry" : 
+      {
+        "x" : -63611.20699999854, 
+        "y" : 5563173.2170000076
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2041, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "48d64c02-38be-4ef2-8084-60fea1c4f1c0", 
+        "Localul" : null, 
+        "Adresa" : "Campus Rütli, Haus E, Rütlistraße 9, 12045 Berlin", 
+        "PoolingstationID" : "303", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "46", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Federală Germania", 
+        "Localitatea_diaspora" : "or. Berlin ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Federală Germania or. Berlin  Nr secției 46"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1495594.5916490778, 
+        "y" : 6855115.5359765291
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2042, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5d8a7169-a051-4325-aa22-e03f3605aae0", 
+        "Localul" : null, 
+        "Adresa" : "Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul\r\nPfaffenwiese 301, 65929 Frankfurt am Main, Centrul  „Jahrhunderthalle”", 
+        "PoolingstationID" : "315", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "48", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Federală Germania", 
+        "Localitatea_diaspora" : "or. Frankfurt pe Main ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Federală Germania or. Frankfurt pe Main  Nr secției 48"
+      }, 
+      "geometry" : 
+      {
+        "x" : 948352.2169021666, 
+        "y" : 6430718.4785072505
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2043, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f041382c-4d2c-40fa-9976-86dc85df9f43", 
+        "Localul" : null, 
+        "Adresa" : "Leitzstraße 45 70469 Stuttgart", 
+        "PoolingstationID" : "2236", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "54", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Federală Germania", 
+        "Localitatea_diaspora" : "or. Stuttgart (consulatul onorific)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Federală Germania or. Stuttgart (consulatul onorific) Nr secției 54"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1021737.766300004, 
+        "y" : 6211130.92180001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2044, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8fcc521e-88ca-4220-81a6-a80dc461108a", 
+        "Localul" : null, 
+        "Adresa" : "Haldesdorferstraße 46,  22179 Hamburg", 
+        "PoolingstationID" : "304", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "52", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Federală Germania", 
+        "Localitatea_diaspora" : "or. Hamburg (consulatul onorific)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Federală Germania or. Hamburg (consulatul onorific) Nr secției 52"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1121487.2646999992, 
+        "y" : 7059838.1618000045
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2045, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "acfb3c7f-e099-4002-b23e-ad61e35dacf1", 
+        "Localul" : null, 
+        "Adresa" : "Alte Kongresshalle Am Bavariapark, 14,80339 München", 
+        "PoolingstationID" : "2235", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "53", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Federală Germania", 
+        "Localitatea_diaspora" : "or. Munchen ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Federală Germania or. Munchen  Nr secției 53"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1285127.3281000033, 
+        "y" : 6097019.7351000085
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2046, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "27ce35c8-1f60-4ff2-9585-00c5dd5f328c", 
+        "Localul" : null, 
+        "Adresa" : "or. Limerick Shannon Rowing Club, Sarsfield  Bridge, Limerick", 
+        "PoolingstationID" : "312", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "60", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Irlanda", 
+        "Localitatea_diaspora" : "or. Limerick", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Irlanda or. Limerick Nr secției 60"
+      }, 
+      "geometry" : 
+      {
+        "x" : -960624.20469999686, 
+        "y" : 6887320.4379000068
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2047, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "84f15238-6bd3-4f00-b8d0-4b1760a01d8e", 
+        "Localul" : null, 
+        "Adresa" : "str. Kakal 90א (alef)  ", 
+        "PoolingstationID" : "322", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "62", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Israel", 
+        "Localitatea_diaspora" : "or. Așdod", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Israel or. Așdod Nr secției 62"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3857127.7474999987, 
+        "y" : 3711800.6839000061
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2048, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "fdfa91df-5685-49df-bc66-3a004ea45698", 
+        "Localul" : null, 
+        "Adresa" : "Via. Francesco Cherubini 27", 
+        "PoolingstationID" : "321", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "63", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Roma (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Roma (sediul misiunii) Nr secției 63"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1383224.2767000049, 
+        "y" : 5124293.3554999977
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2049, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "a9271453-f8f3-436d-9ab5-c61658c54df3", 
+        "Localul" : null, 
+        "Adresa" : "Piazza Europa n.16, Pesaro", 
+        "PoolingstationID" : "320", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "83", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Pesaro-Urbino", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Pesaro-Urbino Nr secției 83"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1418788.3160211295, 
+        "y" : 5410476.5885647982
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2050, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "b2bcf7bb-2f2c-4916-98c1-13fac8556004", 
+        "Localul" : null, 
+        "Adresa" : "Via Armando Diaz, 60, 06128 Perugia PG", 
+        "PoolingstationID" : "302", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "82", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Perugia", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Perugia Nr secției 82"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1377037.9828007855, 
+        "y" : 5298021.7608855292
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2051, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "e22dec78-b0cd-454e-aafd-4300c86fc0cb", 
+        "Localul" : null, 
+        "Adresa" : "piazza Municipio no.1, Palazzo San Giacomo", 
+        "PoolingstationID" : "2224", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "80", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Napoli", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Napoli Nr secției 80"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1586351.0524999984, 
+        "y" : 4960878.7902999967
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2052, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "0f2926f3-8db4-4a42-882d-58088f73aceb", 
+        "Localul" : null, 
+        "Adresa" : "Bologna, Via del Pilastro 2, Hotel Savoia", 
+        "PoolingstationID" : "314", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "71", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Bologna", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Bologna Nr secției 71"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1267377.3027000055, 
+        "y" : 5514709.9327000007
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2053, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "4a27e4ec-d1d5-4e8f-afb7-ce179d9caefe", 
+        "Localul" : null, 
+        "Adresa" : "via Jules Emile Massenet, 19 ", 
+        "PoolingstationID" : "2012", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "85", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Reggio Emilia", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Reggio Emilia Nr secției 85"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1180942.7725000046, 
+        "y" : 5543989.9850000069
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2054, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "72fa3954-b690-4540-a0c5-cbd7a2def2d6", 
+        "Localul" : null, 
+        "Adresa" : "Palazzetto dello Sport, via Silvio Pelico 14/A", 
+        "PoolingstationID" : "2046", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "81", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Parma", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Parma Nr secției 81"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1146977.3040674962, 
+        "y" : 5559126.0781495124
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2055, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "2c236e69-77af-48a8-8b10-0cab7e31586d", 
+        "Localul" : null, 
+        "Adresa" : "Via Viterbo 80", 
+        "PoolingstationID" : "2118", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "79", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Modena", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Modena Nr secției 79"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1217559.194400005, 
+        "y" : 5532333.751699999
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2056, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "87bea205-fa2f-4ac0-85fd-257b4f42bf9d", 
+        "Localul" : null, 
+        "Adresa" : "piazza medaglie d'oro 4 piano 1", 
+        "PoolingstationID" : "2011", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "84", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Ravena", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Ravena Nr secției 84"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1360638.1416000016, 
+        "y" : 5500543.936499998
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2057, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8c1a87fd-1c53-4e62-bd1d-a91c6a69055e", 
+        "Localul" : null, 
+        "Adresa" : "Sala civica \"Nemesio Orsatti\", Pontelagoscuro, Via Risorgimento 4\r", 
+        "PoolingstationID" : "2237", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "74", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Ferrara", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Ferrara Nr secției 74"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1292279.4699648581, 
+        "y" : 5572259.1630959287
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2058, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "23171f0f-685d-401b-a338-8cd5c6a897ab", 
+        "Localul" : null, 
+        "Adresa" : "Via Milazzo 22", 
+        "PoolingstationID" : "300", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "67", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Padova (sediul Consulatului)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Padova (sediul Consulatului) Nr secției 67"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1320609.0549999997, 
+        "y" : 5655107.2497000024
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2059, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "35fefacd-cf86-4b9a-936d-987a52d1def8", 
+        "Localul" : null, 
+        "Adresa" : "Via Diego Valeri 17", 
+        "PoolingstationID" : "301", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "68", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Padova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Padova Nr secției 68"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1322520.2545000017, 
+        "y" : 5656549.408100009
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2060, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "c71ed09c-beb6-4ee5-a3fd-319707265829", 
+        "Localul" : null, 
+        "Adresa" : "Palazzetto dello Sport di Verona , Piazzale Atleti Azzurri D'Italia, 1, ", 
+        "PoolingstationID" : "332", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "91", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Verona", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Verona Nr secției 91"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1220602.5427623764, 
+        "y" : 5660167.0652001277
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2061, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "b106ef1b-3d28-4558-af92-1776297dbfe2", 
+        "Localul" : null, 
+        "Adresa" : "Strada Terraglio 140, Hotel Maggior Consiglio", 
+        "PoolingstationID" : "2124", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "89", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Treviso", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Treviso Nr secției 89"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1362664.8485000022, 
+        "y" : 5693527.3059000075
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2062, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "d225e46e-1fba-4486-90bf-01396cd70f82", 
+        "Localul" : null, 
+        "Adresa" : "Via Vaccari, 107", 
+        "PoolingstationID" : "1992", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "92", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Vicenza", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Vicenza Nr secției 92"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1283003.207100004, 
+        "y" : 5676025.6831000075
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2063, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "174116f2-8aae-4716-b671-71560e71599c", 
+        "Localul" : null, 
+        "Adresa" : "Via Sernaglia 43", 
+        "PoolingstationID" : "2121", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "78", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Mestre", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Mestre Nr secției 78"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1362108.620000001, 
+        "y" : 5667689.741899997
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2064, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6a1e2e73-2b70-48a2-a7c6-3deec1e5bdfb", 
+        "Localul" : null, 
+        "Adresa" : "Milano, Via Tortona 27", 
+        "PoolingstationID" : "306", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "65", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Milano (sediul Consulatului General)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Milano (sediul Consulatului General) Nr secției 65"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1020073.8642000034, 
+        "y" : 5662347.740699999
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2065, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "dad676cb-2e88-423e-9a7e-e5276e4c8517", 
+        "Localul" : null, 
+        "Adresa" : "str via Boscovich 42", 
+        "PoolingstationID" : "311", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "66", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Milano ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Milano  Nr secției 66"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1024895.3759000041, 
+        "y" : 5667018.8364999965
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2066, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ca4c3e5b-135a-4d04-90e7-26f0bce2bd68", 
+        "Localul" : null, 
+        "Adresa" : "Via Ziziola 91, intrarea din Via San Zeno 168\r", 
+        "PoolingstationID" : "310", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "73", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Brescia", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Brescia Nr secției 73"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1137729.6335769258, 
+        "y" : 5672198.4625513107
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2067, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "a453a066-2870-4534-8c81-b813c111a95d", 
+        "Localul" : null, 
+        "Adresa" : "Largo Roentgen nr. 3", 
+        "PoolingstationID" : "308", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "70", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Bergamo", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Bergamo Nr secției 70"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1073555.3548000008, 
+        "y" : 5700349.3335000053
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2068, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "a2c1d39c-f1d8-4e45-a375-1c7bcfab7494", 
+        "Localul" : null, 
+        "Adresa" : "Via Millio 20", 
+        "PoolingstationID" : "2013", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "86", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Torino", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Torino Nr secției 86"
+      }, 
+      "geometry" : 
+      {
+        "x" : 851809.432, 
+        "y" : 5600379.8929999992
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2069, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "30006818-652b-41e9-92af-49bfe0fc6c3a", 
+        "Localul" : null, 
+        "Adresa" : "via Leoncavallo 23", 
+        "PoolingstationID" : "2014", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "87", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Torino", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Torino Nr secției 87"
+      }, 
+      "geometry" : 
+      {
+        "x" : 856964.138500005, 
+        "y" : 5604791.1313000023
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2070, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "01028f31-9945-4508-b04a-677ad3443968", 
+        "Localul" : null, 
+        "Adresa" : "Via Zanobi 55, Hotel Cellai", 
+        "PoolingstationID" : "324", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "75", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Florența (Firenze)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Florența (Firenze) Nr secției 75"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1252959.6551000029, 
+        "y" : 5401878.12470001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2071, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8058002d-7134-4c89-98a1-71de014b2a86", 
+        "Localul" : null, 
+        "Adresa" : "Via Pradamano 21 ", 
+        "PoolingstationID" : "2015", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "90", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Udine", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Udine Nr secției 90"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1474895.6375000067, 
+        "y" : 5758335.20880001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2072, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "3798f95a-b760-41da-a7a1-f848325ceccb", 
+        "Localul" : null, 
+        "Adresa" : "Via della Montagnola 72", 
+        "PoolingstationID" : "309", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "69", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Ancona", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Ancona Nr secției 69"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1503973.6727000028, 
+        "y" : 5373439.8709999993
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2073, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f88c41cb-f994-4a09-a09b-83540ec3b64d", 
+        "Localul" : null, 
+        "Adresa" : "Municipio VIII Medio Levante, in Via Mascherpa 34 r", 
+        "PoolingstationID" : "323", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "76", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Genova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Italiană or. Genova Nr secției 76"
+      }, 
+      "geometry" : 
+      {
+        "x" : 995695.13574111834, 
+        "y" : 5497196.2104491219
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2074, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "a8308199-d41d-4e18-bd45-07648ae6a8f8", 
+        "Localul" : null, 
+        "Adresa" : "Kagurazaka Enoki Building, et. 3,Enoki-cho nr. 72, Shinjuku-ku or. Tokio, codul poştal: 1620806", 
+        "PoolingstationID" : "1993", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "94", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Japonia", 
+        "Localitatea_diaspora" : "or. Tokyo (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Japonia or. Tokyo (sediul misiunii) Nr secției 94"
+      }, 
+      "geometry" : 
+      {
+        "x" : 15554537.770099998, 
+        "y" : 4235165.0759999976
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2075, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "cd4ac973-e9e2-469e-8b73-163370e30add", 
+        "Localul" : null, 
+        "Adresa" : "LV-1010, Riga str. Strelnieku nr.1-1,", 
+        "PoolingstationID" : "1995", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "95", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Letonia", 
+        "Localitatea_diaspora" : "or. Riga (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Letonia or. Riga (sediul misiunii) Nr secției 95"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2683556.0934000053, 
+        "y" : 7715929.6528000087
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2076, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "60f86a06-7f10-4401-b2ce-7c16f1d68f29", 
+        "Localul" : null, 
+        "Adresa" : "LT-08102, Vilnius, Miglos gatve nr. 61A", 
+        "PoolingstationID" : "1996", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "96", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Lituania", 
+        "Localitatea_diaspora" : "or. Vilnius (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Lituania or. Vilnius (sediul misiunii) Nr secției 96"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2810138.9046000019, 
+        "y" : 7269068.76070001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2077, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ae836177-736e-4015-96f6-ed0f6852da69", 
+        "Localul" : null, 
+        "Adresa" : "CEME Conference Centre, Marsh Way, Rainham, Essex, RM13 8EU", 
+        "PoolingstationID" : "1999", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "99", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Londra", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Londra Nr secției 99"
+      }, 
+      "geometry" : 
+      {
+        "x" : 19022.032159056515, 
+        "y" : 6680073.8067531586
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2078, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6154d317-a05d-4524-8f75-8f569c6546a6", 
+        "Localul" : null, 
+        "Adresa" : "Hilton London Kensington, 179-199 Holland Park Ave, Holland Park, London W11 4UL", 
+        "PoolingstationID" : "1998", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "98", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Londra", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Londra Nr secției 98"
+      }, 
+      "geometry" : 
+      {
+        "x" : -23843.25889999792, 
+        "y" : 6677641.4212000072
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2079, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "fe78c84d-efba-4c3b-95db-aac1d04424c6", 
+        "Localul" : null, 
+        "Adresa" : "Novotel Manchester Centre, 21 Dickinson Street,  Manchester M1 4LX", 
+        "PoolingstationID" : "2001", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "105", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Manchester", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Manchester Nr secției 105"
+      }, 
+      "geometry" : 
+      {
+        "x" : -249497.26436211169, 
+        "y" : 7037483.21645803
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2080, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "9c89e7a2-2934-4059-8f37-2873e72fe852", 
+        "Localul" : null, 
+        "Adresa" : "Restaurant “Moldova”, str. 76-92 Great Russell Street; Northampton, NN1 3BU", 
+        "PoolingstationID" : "2023", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "106", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Northampton", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Northampton Nr secției 106"
+      }, 
+      "geometry" : 
+      {
+        "x" : -99126.119199994951, 
+        "y" : 6810296.7174000069
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2081, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "1f21a6e0-7e42-4459-847b-5624e73dec8c", 
+        "Localul" : null, 
+        "Adresa" : "Renfield Centre 260Bath Street, Glasgow, G2 4JP", 
+        "PoolingstationID" : "2000", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "104", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Glasgow", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Glasgow Nr secției 104"
+      }, 
+      "geometry" : 
+      {
+        "x" : -474973.3994999975, 
+        "y" : 7496261.8167999983
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2082, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "47bf0414-a24e-46ac-ab04-8f3e84ae5713", 
+        "Localul" : null, 
+        "Adresa" : "or. Oslo, Zahlkasserer Schafts plass 1, 0267\r", 
+        "PoolingstationID" : "2239", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "108", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Norvegiei", 
+        "Localitatea_diaspora" : "or. Oslo", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Norvegiei or. Oslo Nr secției 108"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1191450.6701666489, 
+        "y" : 8345117.8400061727
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2083, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "45a7c82f-e6fc-489d-9a2e-e1066d6093d5", 
+        "Localul" : null, 
+        "Adresa" : "02-710, Varșovia  str. Imielinska nr. 1", 
+        "PoolingstationID" : "2003", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "109", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Poloneză", 
+        "Localitatea_diaspora" : "or. Varşovia (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Poloneză or. Varşovia (sediul misiunii) Nr secției 109"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2341572.0379000008, 
+        "y" : 6800164.7093000039
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2084, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "0afd2642-734e-4361-af5e-7674c30de984", 
+        "Localul" : null, 
+        "Adresa" : "or. Lisabona, 1400-188, Lisabona, Rua Goncalo Velho Cabral, 30-31", 
+        "PoolingstationID" : "2002", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "110", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Portugheză", 
+        "Localitatea_diaspora" : "or. Lisabona (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Portugheză or. Lisabona (sediul misiunii) Nr secției 110"
+      }, 
+      "geometry" : 
+      {
+        "x" : -1025419.0950999931, 
+        "y" : 4652908.9487999976
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2085, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "fd006d42-885c-413e-81f2-992ac11942f6", 
+        "Localul" : null, 
+        "Adresa" : "Praça da República, 25, 8500-540,  „Junta de Freguesia de Portimão”", 
+        "PoolingstationID" : "2005", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "111", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Portugheză", 
+        "Localitatea_diaspora" : "or. Portimao", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Portugheză or. Portimao Nr secției 111"
+      }, 
+      "geometry" : 
+      {
+        "x" : -950390.983099997, 
+        "y" : 4432761.9460000023
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2086, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "e5555e66-dc26-4e60-8386-920b5d21f5d7", 
+        "Localul" : null, 
+        "Adresa" : "Centro Multicultural, Rua das Piteiras, 2910-638, Setúbal.", 
+        "PoolingstationID" : "2007", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "112", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Portugheză", 
+        "Localitatea_diaspora" : "or. Setubal ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Portugheză or. Setubal  Nr secției 112"
+      }, 
+      "geometry" : 
+      {
+        "x" : -986596.90339999646, 
+        "y" : 4626753.3816000149
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2087, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "eb79c26d-523d-4bd0-95ed-ae1dbe87f7a5", 
+        "Localul" : null, 
+        "Adresa" : "str. Bezuidenhoutseweg 117, 2594AD Den Haag", 
+        "PoolingstationID" : "2004", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "113", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Ţărilor de Jos", 
+        "Localitatea_diaspora" : "or. Haga (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Ţărilor de Jos or. Haga (sediul misiunii) Nr secției 113"
+      }, 
+      "geometry" : 
+      {
+        "x" : 482030.12159999833, 
+        "y" : 6781816.6136000082
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2088, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ef81c019-31a9-438b-a507-e588b770103c", 
+        "Localul" : null, 
+        "Adresa" : "mun. București, str. Eugeniu Carada 1, sector 3", 
+        "PoolingstationID" : "2006", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "114", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Bucureşti", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Bucureşti Nr secției 114"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2905264.0768680684, 
+        "y" : 5502692.071876958
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2089, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "b12878ae-bbef-4b49-8b07-980e5dbd6979", 
+        "Localul" : null, 
+        "Adresa" : "str. Stavropoleus, 6 (Incinta Autorității Electorale Permanente)", 
+        "PoolingstationID" : "2113", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "115", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Bucureşti", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Bucureşti Nr secției 115"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2905344.9829000011, 
+        "y" : 5502581.559799999
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2090, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f15588ee-8127-4b2d-bf09-523255ce1d9e", 
+        "Localul" : null, 
+        "Adresa" : "Str.Vasile Conta, nr.30, cod 700106, Iași.", 
+        "PoolingstationID" : "329", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "116", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Iaşi (sediul Casa de Cultură a Studenților)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Iaşi (sediul Casa de Cultură a Studenților) Nr secției 116"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3069891.5302000046, 
+        "y" : 5938583.1948999986
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2091, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "2f0d81d5-c99f-44a1-9694-5c6215b85040", 
+        "Localul" : null, 
+        "Adresa" : "Colegiul Național de Artă ”Ion Vidu”, str. Cluj nr.12", 
+        "PoolingstationID" : "2200", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "125", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Timişoara", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Timişoara Nr secției 125"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2363850.4191999994, 
+        "y" : 5709252.7685000077
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2092, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "0c6e2146-8d2e-4db6-9442-3af31a80d7dd", 
+        "Localul" : null, 
+        "Adresa" : "Casa de Cultură a Studenților, Piata ”Lucian Blaga” nr.1-3", 
+        "PoolingstationID" : "2126", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "119", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Cluj-Napoca", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Cluj-Napoca Nr secției 119"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2625623.9643000029, 
+        "y" : 5872907.5958999991
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2093, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "becf221c-1799-4c8c-95ea-416f211775ae", 
+        "Localul" : null, 
+        "Adresa" : "Universității \"Dunărea de Jos\", str. Domnească 47", 
+        "PoolingstationID" : "2196", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "122", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Galaţi", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Galaţi Nr secției 122"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3123162.6468000039, 
+        "y" : 5660381.0887999982
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2094, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "9b3fe644-e383-481b-a1ba-6e674e7fda15", 
+        "Localul" : null, 
+        "Adresa" : "Casa de Cultură a Studenţilor, str. Memorandumului nr. 39", 
+        "PoolingstationID" : "2125", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "118", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Braşov", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Braşov Nr secției 118"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2847686.7079000026, 
+        "y" : 5694650.2998000011
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2095, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "eabd4ae9-0394-4aa3-8444-53717f4a01e6", 
+        "Localul" : null, 
+        "Adresa" : "Incinta Universității \"Ovidius\", Bd. Mamaia 124, Aleea Universității 1", 
+        "PoolingstationID" : "2127", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "120", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Constanţa", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Constanţa Nr secției 120"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3189296.3658000045, 
+        "y" : 5465816.8169
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2096, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "29138a54-08a1-4c34-9410-ad5c51568b5b", 
+        "Localul" : null, 
+        "Adresa" : "Universitatea ”Vasile Alecsandri”,  Calea Mărășești, nr. 157", 
+        "PoolingstationID" : "330", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "117", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Bacău", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Bacău Nr secției 117"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2996035.4664999992, 
+        "y" : 5838708.9943
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2097, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6cce2f2b-4511-4bf9-b093-1cf319e669e4", 
+        "Localul" : null, 
+        "Adresa" : "Universității \"Stefan cel Mare\", str. Universității 13", 
+        "PoolingstationID" : "2199", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "124", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Suceava", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Suceava Nr secției 124"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2921636.4687000029, 
+        "y" : 6015869.8506999984
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2098, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "9a1018bf-6fd2-4212-a6a6-272ca7fd639a", 
+        "Localul" : null, 
+        "Adresa" : "Școala Gimnazială Regina Maria, str. Zaharia Boiu 1, jud. Sibiu", 
+        "PoolingstationID" : "2198", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "123", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Sibiu", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Sibiu Nr secției 123"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2687986.1281000003, 
+        "y" : 5716001.7404000089
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2099, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "a55182e9-ea1b-4393-b786-c9e5868c2a8f", 
+        "Localul" : null, 
+        "Adresa" : "Universitatea ”Craiova”, str. Alexandru Ioan Cuza nr. 13", 
+        "PoolingstationID" : "2122", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "121", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "România", 
+        "Localitatea_diaspora" : "or. Craiova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "România or. Craiova Nr secției 121"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2649493.759100005, 
+        "y" : 5485047.4730000049
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2100, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "bc415f91-e6c1-447f-904d-32f032d43d1e", 
+        "Localul" : null, 
+        "Adresa" : "Calle Cifuentes nr. 5,  distrito Villaverde, Madrid (edificiul La Nave) CP 28021, ", 
+        "PoolingstationID" : "2240", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "126", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Spaniei", 
+        "Localitatea_diaspora" : "or. Madrid, Regatul Spaniei", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Spaniei or. Madrid, Regatul Spaniei Nr secției 126"
+      }, 
+      "geometry" : 
+      {
+        "x" : -411463.47779999673, 
+        "y" : 4888923.9131999984
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2101, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6eca8763-0f16-4bd7-b7a2-59305e7e1acf", 
+        "Localul" : null, 
+        "Adresa" : "Calle Comandante Benitez, nr. 6 , Centro Cívico Joan Oliver \"Pere Quart,  CP 08028,  Barcelona", 
+        "PoolingstationID" : "2201", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "127", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Spaniei", 
+        "Localitatea_diaspora" : "or. Barcelona", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Spaniei or. Barcelona Nr secției 127"
+      }, 
+      "geometry" : 
+      {
+        "x" : 236875.40520000085, 
+        "y" : 5040213.8750000075
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2102, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "45129833-6d41-4319-ae74-c4030f5627d8", 
+        "Localul" : null, 
+        "Adresa" : "Calle Alta,  no. 133,  Mercado México, Santander", 
+        "PoolingstationID" : "2203", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "129", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Spaniei", 
+        "Localitatea_diaspora" : "or. Santander", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Spaniei or. Santander Nr secției 129"
+      }, 
+      "geometry" : 
+      {
+        "x" : -425809.43139999732, 
+        "y" : 5352533.66830001
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2103, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8f0e1e08-e1ea-471c-aaba-f3915c8e6451", 
+        "Localul" : null, 
+        "Adresa" : "Career de Rei Said, S/N, CP 46014, Valencia", 
+        "PoolingstationID" : "2204", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "130", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Spaniei", 
+        "Localitatea_diaspora" : "or. Valencia", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Spaniei or. Valencia Nr secției 130"
+      }, 
+      "geometry" : 
+      {
+        "x" : -45527.144786465913, 
+        "y" : 4759899.5563911572
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2104, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "4d7125bc-0c3b-4cb8-8a8a-b863a29d15bd", 
+        "Localul" : null, 
+        "Adresa" : "Calle Concejal Muñoz Cerván nº 3, módulo 3 (edificiul Tabacalera), Salón de Actos de Participación Ciudadana, Málaga", 
+        "PoolingstationID" : "2202", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "128", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Spaniei", 
+        "Localitatea_diaspora" : "or. Malaga", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Spaniei or. Malaga Nr secției 128"
+      }, 
+      "geometry" : 
+      {
+        "x" : -494172.56720000133, 
+        "y" : 4371577.0392
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2105, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "fe4c14b4-029c-4d11-a5a1-f2e4c023e36a", 
+        "Localul" : null, 
+        "Adresa" : "2101 S Street N.W.,  Washington DC 20008", 
+        "PoolingstationID" : "2205", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "131", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Washington, DC (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Washington, DC (sediul misiunii) Nr secției 131"
+      }, 
+      "geometry" : 
+      {
+        "x" : -8576797.1199, 
+        "y" : 4682551.0500999987
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2106, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "85398bf6-f1b7-4334-aa4a-26548616b1f6", 
+        "Localul" : null, 
+        "Adresa" : "7280 N Caldwell Ave.,  Niles, IL 60714  Logos Christian Academy ", 
+        "PoolingstationID" : "2210", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "136", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Chicago, IL", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Chicago, IL Nr secției 136"
+      }, 
+      "geometry" : 
+      {
+        "x" : -9772848.8907, 
+        "y" : 5134456.4509000108
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2107, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "e4bf7fff-6099-4e0e-ad1e-fed324dd97ac", 
+        "Localul" : null, 
+        "Adresa" : "1050 Butte Ave SE, Pacific WA 98047", 
+        "PoolingstationID" : "2216", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "142", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Seattle, WA", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Seattle, WA Nr secției 142"
+      }, 
+      "geometry" : 
+      {
+        "x" : -13608334.560799997, 
+        "y" : 5951814.1577000022
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2108, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "c19355e0-33d6-44fa-a912-7802d286e6b2", 
+        "Localul" : null, 
+        "Adresa" : "4715 Manzanita Ave,  Carmichael, CA 95608", 
+        "PoolingstationID" : "2215", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "141", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Sacramento, CA", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Sacramento, CA Nr secției 141"
+      }, 
+      "geometry" : 
+      {
+        "x" : -13506188.785699997, 
+        "y" : 4644999.8199000061
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2109, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6dc7a781-95a0-4e3a-93ef-14f8d077b1b2", 
+        "Localul" : null, 
+        "Adresa" : "344 Watertown St,  Newton, MA 02458", 
+        "PoolingstationID" : "2209", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "135", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Boston, MA", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Boston, MA Nr secției 135"
+      }, 
+      "geometry" : 
+      {
+        "x" : -7925976.4050999992, 
+        "y" : 5186357.6792000011
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2110, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "3d8a4798-a9a9-45cc-92f0-b798087ea85b", 
+        "Localul" : null, 
+        "Adresa" : "Four Points by Sheraton Asheville Downtown 22 Woodfin St, Asheville, NC 28801", 
+        "PoolingstationID" : "2207", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "133", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Asheville, NC", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Asheville, NC Nr secției 133"
+      }, 
+      "geometry" : 
+      {
+        "x" : -9189513.5606, 
+        "y" : 4220736.8562000021
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2111, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "af0e65de-098a-414a-9503-ff78084bf015", 
+        "Localul" : null, 
+        "Adresa" : "Orlando-John Young Parkway   7500 Futures Drive, Orlando, FL 32819", 
+        "PoolingstationID" : "2214", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "140", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Orlando, FL", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Orlando, FL Nr secției 140"
+      }, 
+      "geometry" : 
+      {
+        "x" : -9064554.9895000011, 
+        "y" : 3284041.4312000051
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2112, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5d246509-fa9d-4eeb-adf9-c1200d6a1ad5", 
+        "Localul" : null, 
+        "Adresa" : "165 S Clayton Str,  Lawrenceville, GA 30046 Lawrenceville First Baptist Church", 
+        "PoolingstationID" : "2208", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "134", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Atlanta, GA", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Atlanta, GA Nr secției 134"
+      }, 
+      "geometry" : 
+      {
+        "x" : -9349466.2842999958, 
+        "y" : 3998936.9514999986
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2113, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8301bfd8-6bd8-497f-a93a-17c415b622b5", 
+        "Localul" : null, 
+        "Adresa" : "1555 Jay St., Lakewood, CO, 8011  Romanian Orthodox Church St. John the Hozevite (Biserica Ortodoxă Românească \"Sf. Ioan Hozevitul\")", 
+        "PoolingstationID" : "2212", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "138", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Denver, CO", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Denver, CO Nr secției 138"
+      }, 
+      "geometry" : 
+      {
+        "x" : -11695822.302999996, 
+        "y" : 4801148.9001000077
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2114, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "71a4a0ac-6402-4325-ba26-40f35de9f2b6", 
+        "Localul" : null, 
+        "Adresa" : "4140 Legacy Drive, Suite 300,Plano, TX 75024 Edelweiss School of Music", 
+        "PoolingstationID" : "2211", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "137", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Dallas, TX", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Dallas, TX Nr secției 137"
+      }, 
+      "geometry" : 
+      {
+        "x" : -10772974.779200003, 
+        "y" : 3881201.4199
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2115, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "bee47ff0-e1ca-4eb1-b498-79886f041531", 
+        "Localul" : null, 
+        "Adresa" : "11801 Fountains Way N, Maple Grove, MN 55369", 
+        "PoolingstationID" : "2213", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "139", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Minneapolis, MN", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Minneapolis, MN Nr secției 139"
+      }, 
+      "geometry" : 
+      {
+        "x" : -10400521.724899996, 
+        "y" : 5605719.2084999979
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2116, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "652ff0b3-9089-4060-b193-b070e9c7666a", 
+        "Localul" : null, 
+        "Adresa" : "Vila 151, str. 826 Al Mabahej, Area 66 Al Dafna, or. Doha, Statul Qatar.", 
+        "PoolingstationID" : "2243", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "144", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statul Qatar", 
+        "Localitatea_diaspora" : "or. Doha (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Statul Qatar or. Doha (sediul misiunii) Nr secției 144"
+      }, 
+      "geometry" : 
+      {
+        "x" : 5734709.0030000024, 
+        "y" : 2900661.6398000009
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2117, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "1679f119-545b-45e0-986e-2b79bbb608e2", 
+        "Localul" : null, 
+        "Adresa" : "11432, Engelbrektsgatan 10, et. 3", 
+        "PoolingstationID" : "2217", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "145", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Suediei", 
+        "Localitatea_diaspora" : "or. Stockholm (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Suediei or. Stockholm (sediul misiunii) Nr secției 145"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2011799.8629, 
+        "y" : 8218159.9447000027
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2118, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "df1d44e5-3a0b-4e2d-a305-417b1a43c275", 
+        "Localul" : null, 
+        "Adresa" : "Hotel İçkale, Maltepe, Gazi Mustafa Kemal Blv. No:89, 06570 Çankaya/Ankara", 
+        "PoolingstationID" : "2146", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "146", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Turcia", 
+        "Localitatea_diaspora" : "or. Ankara ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Turcia or. Ankara  Nr secției 146"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3656263.2556000017, 
+        "y" : 4828389.1236000061
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2119, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "3458ce2a-4f13-4905-843b-fc23737d85cb", 
+        "Localul" : null, 
+        "Adresa" : "Inönü cad. № 18, D.1, Gümüşsuyu Palas, 34437, Ömer Avni Mahallesi, Istanbul", 
+        "PoolingstationID" : "2218", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "147", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Turcia", 
+        "Localitatea_diaspora" : "or. Istanbul (sediul Consulatului General)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Turcia or. Istanbul (sediul Consulatului General) Nr secției 147"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3227456.0338233523, 
+        "y" : 4989750.4317804649
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2120, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "d2b883f5-a6b3-45dd-a9f9-631c83b46509", 
+        "Localul" : null, 
+        "Adresa" : "or. Kiev, str. Yagotinska 2", 
+        "PoolingstationID" : "2219", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "148", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Ucraina", 
+        "Localitatea_diaspora" : "or. Kiev (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Ucraina or. Kiev (sediul misiunii) Nr secției 148"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3399554.7421999983, 
+        "y" : 6484826.7174000069
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2121, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "684a1393-4dfa-4147-a0c6-dabf728093d1", 
+        "Localul" : null, 
+        "Adresa" : "or Odesa, str. Posmitîi 2/2 \"Б\"", 
+        "PoolingstationID" : "2241", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "149", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Ucraina", 
+        "Localitatea_diaspora" : "or. Odesa (sediul Consulatului)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Ucraina or. Odesa (sediul Consulatului) Nr secției 149"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3423983.4131000005, 
+        "y" : 5818923.3737
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2122, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "21dcf16f-30b5-4303-9da4-3b973f23cbc9", 
+        "Localul" : null, 
+        "Adresa" : "1024 Budapest, Ady Endre utca 16", 
+        "PoolingstationID" : "2242", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "150", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Ungară", 
+        "Localitatea_diaspora" : "or. Budapesta (sediul misiunii)", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Ungară or. Budapesta (sediul misiunii) Nr secției 150"
+      }, 
+      "geometry" : 
+      {
+        "x" : 2118141.7551999986, 
+        "y" : 5994990.8460000008
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2123, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f4c262ca-adef-4e17-a150-0f581da1b02c", 
+        "Localul" : null, 
+        "Adresa" : "or. Copenhaga Aalborg University Copenhagen\r A. C. Meyers Vænge 15 2450 Copenhagen SV", 
+        "PoolingstationID" : "2116", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "14", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Danemarcei", 
+        "Localitatea_diaspora" : "or. Copenhaga", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Regatul Danemarcei or. Copenhaga Nr secției 14"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1396310.9891000018, 
+        "y" : 7453824.3972000033
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2124, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "fff9b48f-2366-4d14-bec0-60c687494950", 
+        "Localul" : null, 
+        "Adresa" : "str. Stymfalidon 11, Potamos Yermasoyias 4046 (Atlantica Oasis Hotel)", 
+        "PoolingstationID" : "2035", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "13", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Cipru", 
+        "Localitatea_diaspora" : "or. Limassol", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Cipru or. Limassol Nr secției 13"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3684480.4582000077, 
+        "y" : 4098986.3291000053
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2125, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "7f3bb261-df7f-46ac-93ad-4a9cae6dcd69", 
+        "Localul" : null, 
+        "Adresa" : "Ecole ARAGO, 87 bd Arago, 75014 Paris\r", 
+        "PoolingstationID" : "2234", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "36", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Paris", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : 0, 
+        "BESV_diaspora" : "Republica Franceză or. Paris Nr secției 36"
+      }, 
+      "geometry" : 
+      {
+        "x" : 260008.65086298063, 
+        "y" : 6214609.871871233
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2126, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "dd50d497-577b-470a-bfb8-541296eead79", 
+        "Localul" : null, 
+        "Adresa" : "50, avenue de la Résistance, 93100 Montreuil", 
+        "PoolingstationID" : "2231", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "40", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Paris și regiunea orașului Paris ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Franceză or. Paris și regiunea orașului Paris  Nr secției 40"
+      }, 
+      "geometry" : 
+      {
+        "x" : 271357.57145586237, 
+        "y" : 6219081.8176241294
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2127, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5e99975a-6f34-4f8b-a7bf-4c35e89f8486", 
+        "Localul" : null, 
+        "Adresa" : "Espace Cocteau, 8, avenue Carnot, 94190 VilleneuveSaint-Georges", 
+        "PoolingstationID" : "2248", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "41", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Paris și regiunea or. Paris", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Franceză or. Paris și regiunea or. Paris Nr secției 41"
+      }, 
+      "geometry" : 
+      {
+        "x" : 272483.19940156117, 
+        "y" : 6197521.1432527751
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2128, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f89cc8c9-ac55-498f-a795-557c16837572", 
+        "Localul" : null, 
+        "Adresa" : "Stadtbüro Leipzig, Markgrafenstraße 3, 04109 Leipzig", 
+        "PoolingstationID" : "2247", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "47", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Franceză", 
+        "Localitatea_diaspora" : "or. Leipzig", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Franceză or. Leipzig Nr secției 47"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1377305.9206169248, 
+        "y" : 6647756.5207383186
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2129, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ca966697-5fd2-4742-b110-88d694be5404", 
+        "Localul" : null, 
+        "Adresa" : "Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul  „Jahrhunderthalle”", 
+        "PoolingstationID" : "317", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "49", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Federală Germania", 
+        "Localitatea_diaspora" : "or. Frankfurt pe Main ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Federală Germania or. Frankfurt pe Main  Nr secției 49"
+      }, 
+      "geometry" : 
+      {
+        "x" : 948271.14604408666, 
+        "y" : 6430723.916250661
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2130, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "8b4a1176-367c-4e0e-8fa9-384825ea1901", 
+        "Localul" : null, 
+        "Adresa" : "Brinckmannstraße 5, 40225 Düsseldorf", 
+        "PoolingstationID" : "2245", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "50", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Germania", 
+        "Localitatea_diaspora" : "or. Dusseldorf", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Germania or. Dusseldorf Nr secției 50"
+      }, 
+      "geometry" : 
+      {
+        "x" : 755514.41150277108, 
+        "y" : 6623989.5690320283
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2131, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "06787fc2-1362-4394-b3ee-99dff3e64c41", 
+        "Localul" : null, 
+        "Adresa" : "Radisson Blu Hotel, Boettcherstrasse 2, D. 28195 Bremen", 
+        "PoolingstationID" : "2246", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "51", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Germania", 
+        "Localitatea_diaspora" : "or. Bremen", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Germania or. Bremen Nr secției 51"
+      }, 
+      "geometry" : 
+      {
+        "x" : 980273.51406994835, 
+        "y" : 6962605.5652437285
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2132, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "84c5e9e1-fca2-463f-88c1-01333824ebb7", 
+        "Localul" : null, 
+        "Adresa" : "Freizeitheim Linden Windheimstr. 4, 30451 Hannover", 
+        "PoolingstationID" : "2250\r\n2250\r\n2250", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "55", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Germania", 
+        "Localitatea_diaspora" : "or. Hanovra", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Germania or. Hanovra Nr secției 55"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1079784.4837205261, 
+        "y" : 6834338.5322183222
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2133, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "221b8bf3-b9b5-4e14-a8eb-13f9dfddc060", 
+        "Localul" : null, 
+        "Adresa" : "Willstätter-Gymnasium Innerer Laufer Platz 11, 90403 Nürnberg", 
+        "PoolingstationID" : "2251", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "56", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Germania", 
+        "Localitatea_diaspora" : "or. Nürnberg", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Germania or. Nürnberg Nr secției 56"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1233819.5975271165, 
+        "y" : 6320173.2995953932
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2134, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "c25acd40-a59f-410e-b633-2bc32f35c860", 
+        "Localul" : null, 
+        "Adresa" : "Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4\r", 
+        "PoolingstationID" : "318", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "57", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Irlanda", 
+        "Localitatea_diaspora" : "or. Dublin", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Irlanda or. Dublin Nr secției 57"
+      }, 
+      "geometry" : 
+      {
+        "x" : -693433.6957009919, 
+        "y" : 7008847.5915835351
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2135, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "bd2f612b-cea0-4b03-9f64-f4e7830ed87b", 
+        "Localul" : null, 
+        "Adresa" : "Royal Dublin Society, Hall 8C Simmonscourt,  Simmonscourt Road, Dublin 4\r", 
+        "PoolingstationID" : "319", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "58", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Irlanda", 
+        "Localitatea_diaspora" : "or. Dublin", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Irlanda or. Dublin Nr secției 58"
+      }, 
+      "geometry" : 
+      {
+        "x" : -693426.816520568, 
+        "y" : 7008849.7082544342
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2136, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "5b0bb95e-60d4-4bfc-a36c-71506122e1ba", 
+        "Localul" : null, 
+        "Adresa" : "Royal Dublin Society, Hall 8C Simmonscourt,  Simmonscourt Road, Dublin 4\r", 
+        "PoolingstationID" : "307", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "59", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Irlanda", 
+        "Localitatea_diaspora" : "or. Dublin ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Irlanda or. Dublin  Nr secției 59"
+      }, 
+      "geometry" : 
+      {
+        "x" : -693436.34153962135, 
+        "y" : 7008845.3426207006
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2137, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "471ca153-08e0-46f5-ae64-02524c5c6c0e", 
+        "Localul" : null, 
+        "Adresa" : "Roma, Via Galilei 53-57 ", 
+        "PoolingstationID" : "305", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "64", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Roma", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Italiană or. Roma Nr secției 64"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1392139.9838911593, 
+        "y" : 5116124.4591546655
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2138, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "b15ee67d-5df3-4b7d-a0e9-77e8cdb8a151", 
+        "Localul" : null, 
+        "Adresa" : "Strada Val Nure 7, Piacenza, Hotel Best Western Park", 
+        "PoolingstationID" : "2197", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "72", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Piacenza", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Italiană or. Piacenza Nr secției 72"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1078267.9070961773, 
+        "y" : 5595748.573690556
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2139, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "f330f375-df50-4f64-860a-82c01ef567fd", 
+        "Localul" : null, 
+        "Adresa" : "Via Faccioto 7", 
+        "PoolingstationID" : "2115", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "77", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : null, 
+        "Localitatea_diaspora" : "or. Mantova", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : " or. Mantova Nr secției 77"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1179604.3139070719, 
+        "y" : 5645209.8634152785
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2140, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "0c64e7c3-fe62-429d-965e-4222bfd95822", 
+        "Localul" : null, 
+        "Adresa" : "London Chigwell Prince Regent Hotel, Manor Rd Woodford, Chigwell, Woodford Green IG8 8AE\r", 
+        "PoolingstationID" : "1997", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "97", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Londra ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Londra  Nr secției 97"
+      }, 
+      "geometry" : 
+      {
+        "x" : 6575.004469782114, 
+        "y" : 6695725.1966126189
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2141, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "05385efa-225e-4581-bb08-2b8079506b80", 
+        "Localul" : null, 
+        "Adresa" : "CEME Conference Centre, Marsh Way, Rainham, Essex RM13 8EU", 
+        "PoolingstationID" : "327", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "100", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Londra", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Londra Nr secției 100"
+      }, 
+      "geometry" : 
+      {
+        "x" : 19102.455045744777, 
+        "y" : 6680049.4626566917
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2142, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "d15314e7-e8c2-43cf-8a40-183b5e834b38", 
+        "Localul" : null, 
+        "Adresa" : "London Chigwell Prince Regent Hotel, Manor Rd,  Woodford, Chigwell, Woodford Green IG8 8AE", 
+        "PoolingstationID" : "2026", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "101", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Londra ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Londra  Nr secției 101"
+      }, 
+      "geometry" : 
+      {
+        "x" : 6602.8519212864339, 
+        "y" : 6695729.6283923313
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2143, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "df3733ee-40c1-4fd9-94f0-ce37d415903a", 
+        "Localul" : null, 
+        "Adresa" : "CEME Conference Centre, Marsh Way, Rainham, Essex RM13 8EU\r", 
+        "PoolingstationID" : "2252", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "102", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei ", 
+        "Localitatea_diaspora" : "or. Londra", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei  or. Londra Nr secției 102"
+      }, 
+      "geometry" : 
+      {
+        "x" : 18988.772179473191, 
+        "y" : 6680096.3501241505
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2144, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "ff2e51e4-6558-41e5-a69a-6706c25d8b61", 
+        "Localul" : null, 
+        "Adresa" : "Levy UK at Villa Park, Home of Aston Villa Football Club Villa Park Birmingham B6 6HE", 
+        "PoolingstationID" : "2238", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "103", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei ", 
+        "Localitatea_diaspora" : "or. Birmingham ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei  or. Birmingham  Nr secției 103"
+      }, 
+      "geometry" : 
+      {
+        "x" : -209872.82929825783, 
+        "y" : 6858896.5681447759
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2145, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "12943f88-b05d-4da2-b61f-132d86b151a5", 
+        "Localul" : null, 
+        "Adresa" : "Duston Community Centre Pendle Rd, Northampton NN5 6DT", 
+        "PoolingstationID" : "1994", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "107", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Regatul Unit al Marii Britanii şi Irlandei de Nord", 
+        "Localitatea_diaspora" : "or. Northampton ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Regatul Unit al Marii Britanii şi Irlandei de Nord or. Northampton  Nr secției 107"
+      }, 
+      "geometry" : 
+      {
+        "x" : -104879.31801502779, 
+        "y" : 6811785.6194712892
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2146, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "6b7002ad-1f39-4059-a813-1f443a0156a8", 
+        "Localul" : null, 
+        "Adresa" : "6787 W Gary Ave, Las Vegas, NV 89139\r\nBeyoglu", 
+        "PoolingstationID" : "2253", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "143", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. Las Vegas, NV", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. Las Vegas, NV Nr secției 143"
+      }, 
+      "geometry" : 
+      {
+        "x" : -12828569.825145161, 
+        "y" : 4277525.9084513858
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2147, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "4d289cc3-5480-40f4-8709-d8bc6fa1396a", 
+        "Localul" : null, 
+        "Adresa" : "1827 Coney Island Ave, Brooklyn, NY 11230, Restaurant  Moldova", 
+        "PoolingstationID" : "2206", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "132", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Statele Unite ale Americii", 
+        "Localitatea_diaspora" : "or. New York, NY", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Statele Unite ale Americii or. New York, NY Nr secției 132"
+      }, 
+      "geometry" : 
+      {
+        "x" : -8233480.8722157795, 
+        "y" : 4927597.1355287731
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2148, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "547fd1eb-7501-421c-aa83-46508681e634", 
+        "Localul" : null, 
+        "Adresa" : "Via XXIII Settembre 1845, 124c, sala Celle", 
+        "PoolingstationID" : "316", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "93", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Rimini ", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Italiană or. Rimini  Nr secției 93"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1397003.681769181, 
+        "y" : 5446237.1556552649
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2149, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "88d3469d-91f9-40f6-a10a-403aa45ca487", 
+        "Localul" : null, 
+        "Adresa" : "or. Tel Aviv, str. Ibn Gabirol 71 (Centrul Cultural Enav)", 
+        "PoolingstationID" : "313", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "61", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Israel", 
+        "Localitatea_diaspora" : "or. Tel-Aviv", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Israel or. Tel-Aviv Nr secției 61"
+      }, 
+      "geometry" : 
+      {
+        "x" : 3871744.1250060424, 
+        "y" : 3751407.3492208868
+      }
+    }, 
+    {
+      "attributes" : {
+        "OBJECTID_1" : 2150, 
+        "Raion" : null, 
+        "Comuna" : null, 
+        "GlobalID" : "36830638-af50-438a-b17b-1bd2373c93b1", 
+        "Localul" : null, 
+        "Adresa" : "or. Trento, str. La Clarina, 2/1", 
+        "PoolingstationID" : "2123", 
+        "name" : null, 
+        "nameRu" : null, 
+        "name1" : null, 
+        "nameRu1" : null, 
+        "geoLatitude" : null, 
+        "geoLongitude" : null, 
+        "BESV" : null, 
+        "Sectia_de_vot" : "88", 
+        "GlobalID_1" : null, 
+        "Circumscriptia_electorala_1" : "Circumscriptia electorala străinatate nr 38", 
+        "Telefon_1" : null, 
+        "lincul" : null, 
+        "Tara" : "Republica Italiană", 
+        "Localitatea_diaspora" : "or. Trento", 
+        "link" : null, 
+        "Link_1" : null, 
+        "Circum_sectia" : null, 
+        "OBJECTID" : null, 
+        "BESV_diaspora" : "Republica Italiană or. Trento Nr secției 88"
+      }, 
+      "geometry" : 
+      {
+        "x" : 1238745.1438655891, 
+        "y" : 5757839.4790504277
+      }
+    }
+  ]
+}
