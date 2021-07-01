@@ -27,6 +27,19 @@ const sectiiFinale = data.features
     })
 
 const output = stringify(sectiiFinale, { header: true })
+const outputGeoJson = {
+    type: "FeatureCollection",
+    features: sectiiFinale.map(sectie => ({
+        type: "Feature",
+        id: sectie.PollingStationNumber,
+        geometry: {
+            type: "Point",
+            coordinates: [sectie.Longitude, sectie.Latitude]
+        },
+        properties: sectie
+    }))
+}
 
 fs.writeFileSync('./output.csv', output, { encoding: 'utf8' })
+fs.writeFileSync('./output.geojson', JSON.stringify(outputGeoJson, null, 2), { encoding: 'utf8' })
 
