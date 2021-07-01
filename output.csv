@@ -1,151 +1,151 @@
 Id,PollingStationNumber,Latitude,Longitude,County,Address,Locality,Institution
-1,38/1,16.3942884358781,48.2067794038494,Republica Austria,"Löwengasse 47, 1030, Viena",or. Viena (sediul misiunii),or. Viena (sediul misiunii)
-2,38/2,49.8180180692589,40.3681262699487,Republica Azerbaidjan,"Baku, bl.Huseyn Javid, 520, bl.12",or. Baku (sediul misiunii),or. Baku (sediul misiunii)
-3,38/3,27.5610524027423,53.8934698414818,Republica Belarus,"Minsk, 220030, str. Belarusskaia nr.2",or. Minsk (sediul misiunii),or. Minsk (sediul misiunii)
-4,38/4,4.38361853007582,50.8085899283451,Regatul Belgiei,"avenue Franklin Roosevelt 57, 1050",or. Bruxelles (sediul Ambasadei),or. Bruxelles (sediul Ambasadei)
-5,38/5,4.38355911011305,50.8086614628759,Regatul Belgiei,"avenue Franklin Roosevelt 55, 1050",or. Bruxelles (sediul misiunii),or. Bruxelles (sediul misiunii)
-6,38/6,23.3227361273277,42.6873012145021,Republica Bulgară,"1142, str. Georgi Sava Rakovski nr.152.",or. Sofia (sediul misiunii),or. Sofia (sediul misiunii)
-7,38/7,-75.7015943798155,45.4187817385598,Canada,"275 Slater Street, Suite 801, Ottawa, ON K1P 5H9","or. Ottawa, ON (sediul misiunii)","or. Ottawa, ON (sediul misiunii)"
-8,38/8,-114.112112774483,50.9981436148933,Canada,"North Glenmore Park Community Association, 2231 Longridge Drive SW, Calgary, T3E 5N5",or. Calgary,or. Calgary
-9,38/9,-73.620721045332,45.4958765710129,Canada,"Hotel Terrasse Royal/5225 Côte-des-Neiges, Montréal, QC H3T 1Y","or. Montreal, QC","or. Montreal, QC"
-10,38/10,-79.4715027652153,43.7556746195695,Canada,"1170 Sheppard Avenue West, Unit 15, Toronto ON, M3K 2A3","or. Toronto, ON","or. Toronto, ON"
-11,38/11,14.4025831790535,50.1073245909772,Republica Cehă,"str. Juárezova 14, 16000, Praga 6 - Bubeneč",or. Praga (sediul misiunii),or. Praga (sediul misiunii)
-12,38/12,116.445346116183,39.9440905114237,Republica Populară Chineză,"100600 Beijing, Chaoyang District, Liangmahe South Road 14, Ta Yuan Diplomatic Office Building 2-9-1",or. Beijing (sediul misiunii),or. Beijing (sediul misiunii)
-13,38/13,33.0982510964076,34.7009209348037,Republica Cipru,"str. Stymfalidon 11, Potamos Yermasoyias 4046 (Atlantica Oasis Hotel)",or. Limassol,or. Limassol
-14,38/14,12.5432750289258,55.6503854726054,Regatul Danemarcei,or. Copenhaga Aalborg University Copenhagen A. C. Meyers Vænge 15 2450 Copenhagen SV,or. Copenhaga,or. Copenhaga
-15,38/15,23.7663728628901,37.9992192695219,Republica Elenă,"sec. Nea Filothei, str. Geor. Mpakou 20 C.P. 115 24",or. Atena (sediul misiunii),or. Atena (sediul misiunii)
-16,38/16,6.14378155906306,46.2200106028935,Confederația Elvețiană,"Avenue de France 23, 1202. Geneva",or. Geneva (sediul misiunii),or. Geneva (sediul misiunii)
-17,38/17,54.3877333965117,24.4446800032803,Emiratele Arabe Unite,"Vila Nr. 20, St. Al Darahy, Mushrif, Abu Dhabi, C.P. 31705",or. Abu Dhabi (sediul misiunii),or. Abu Dhabi (sediul misiunii)
-18,38/18,24.747240611403,59.4298319557056,Republică Estonia,"str.Tatari 20,10116, Tallinn",or. Tallinn (sediul misiunii),or. Tallinn (sediul misiunii)
-19,38/19,37.6226534082661,55.76188674807,Federaţia Rusă,"Sediul Ambasadei. Str. Rojdestvenka 7, statia de metrou Kuznețkii Most",or. Moscova (sediul misiunii),or. Moscova (sediul misiunii)
-20,38/20,37.6225494237804,55.76358866132,Federaţia Rusă,"Institutul de Arhitectură din Moscova, str.Rojdestvenka 11/4, cladirea 1/4, ул. Рождественка, 11/4 корпус 1 строение 4:",or. Moscova,or. Moscova
-21,38/21,37.6245925035536,55.7610249583099,Federaţia Rusă,"or.Moscova, Casa centrală a oamenilor de arta, str. Pusecinaia 9/6 cl. 1, statia de metrou Kuznețkii Most",or. Moscova,or. Moscova
-22,38/22,37.4991724760229,55.6241166371365,Federaţia Rusă,"or. Moscova Complexul educațional de planificare urbana ""Capitala"", str. Profsoiuznaia, 154, cladirea 7 ул. Профсоюзная, 154 корпус 7",or. Moscova,or. Moscova
-23,38/23,37.4705893102536,55.6010978199094,Federaţia Rusă,"or. Domodedovo, Sovhozul numelui lui V.I. Lenin, Casa cultura, cl.7, stația de metrou Domodedovscaia , auto 44, 308, 364, 404.",Regiunea Moscova,Regiunea Moscova
-24,38/24,37.7738759711797,55.9279789399282,Federaţia Rusă,"reg. Moscova, or. Mîtisci, str. Silikatnaia nr. 12 Casa de cultură a tineretului",Regiunea Moscova,Regiunea Moscova
-25,38/25,37.2835684418239,55.6745722808672,Federaţia Rusă,"reg. Moscova, or. Odintovo, scoala nr. 5, str. Vokzalnaia st.5",Regiunea Moscova,Regiunea Moscova
-26,38/26,37.7525609067998,55.5889214413224,Federaţia Rusă,"Московская обл. Ленинский г.о.,поселок развилка,32.,Развиловская библиотека","Regiunea Moscova, Federaţia Rusă","Regiunea Moscova, Federaţia Rusă"
-27,38/27,37.4296213729482,55.8855512060308,Federaţia Rusă,"г.Химки, Горшина,5а, школа нр.27","Regiunea Moscova, Federaţia Rusă","Regiunea Moscova, Federaţia Rusă"
-28,38/28,37.4680786496804,55.145178185681,Federaţia Rusă,"г.Чехов, Чехова, 45, КТЦ Дружба","Regiunea Moscova, Federaţia Rusă","Regiunea Moscova, Federaţia Rusă"
-29,38/29,37.8975736503111,55.676119766835,Federaţia Rusă,"г.Люберцы, Октябрьский проспект, 200,ДК",Regiunea Moscova,Regiunea Moscova
-30,38/30,37.371637397764,55.8200203972881,Federaţia Rusă,"г.Красногорск, Игната Титова, 10, школа нр.19",or. Kostroma,or. Kostroma
-31,38/31,30.3446644799369,59.94406431651,Federaţia Rusă,"Санкт Петербург, Мoховая, 15а, Дом национальностей.","or. Sankt-Petersburg, Federaţia Rusă","or. Sankt-Petersburg, Federaţia Rusă"
-32,38/32,30.3434547394112,59.9707451990719,Federaţia Rusă,or. Sankt-Petersburg (nord) Casa de cultură str. Smoleacikova nr. 13,or. Sankt-Petersburg,or. Sankt-Petersburg
-33,38/33,30.3159046807634,59.8762802323372,Federaţia Rusă,"strBlagodatnaia nr 20 Biblioteca specializată literatură juridică și economică Благодатная ул., 20",or. Sankt-Petersburg,or. Sankt-Petersburg
-34,38/34,37.6125225462583,54.2002941332963,Federaţia Rusă,"Sala de concert orășenească str. Sovețkaia 2 ул. Советская, 2",or. Tula,or. Tula
-35,38/35,36.2641979833088,54.5154868216102,Federaţia Rusă,"Калуга, Народный Дом, ул. Ленна 74",or. Sankt-Petersburg,or. Sankt-Petersburg
-36,38/36,2.33569745073512,48.8343095631536,Republica Franceză,"Ecole ARAGO, 87 bd Arago, 75014 Paris",or. Paris,or. Paris
-37,38/37,2.3216767255976,48.8846887707357,Republica Franceză,"16-20 rue des Batignolles, 75017 Paris (incinta Primăriei sectorul 17)",or. Paris și regiunea orașului Paris,or. Paris și regiunea orașului Paris
-38,38/38,2.36625836149338,48.8857142557968,Republica Franceză,"28-30 rue d'Aubervilliers, 75019 Paris",or. Villeneuve-Saint-Georges,or. Villeneuve-Saint-Georges
-39,38/39,2.42951332254448,48.787122957985,Republica Franceză,"Salle Roger Delmas, 3 rue de Toulon,94140 Alfortville",or. Paris (sediul misiunii),or. Paris (sediul misiunii)
-40,38/40,2.43764653900356,48.8608226002959,Republica Franceză,"50, avenue de la Résistance, 93100 Montreuil",or. Paris și regiunea orașului Paris,or. Paris și regiunea orașului Paris
-41,38/41,2.4477582268821,48.7328647128988,Republica Franceză,"Espace Cocteau, 8, avenue Carnot, 94190 VilleneuveSaint-Georges",or. Paris și regiunea or. Paris,or. Paris și regiunea or. Paris
-42,38/42,7.77008410689089,48.5917779547299,Republica Franceză,"76 Allee de la Robertsau, 67000 Strasbourg - Association Parlementaire Européenne",or. Strasbourg,or. Strasbourg
-43,38/43,-0.571429194893894,44.820479033918,Republica Franceză,"Bordeaux – Salle MALBEC Nansouty, 250 rue Malbec, 33000 Bordeaux",or. Bordeaux,or. Bordeaux
-44,38/44,4.80413458226414,45.7670999252524,Republica Franceză,"Espace Jean Couty, 1, rue de la Pépinière Royale, 69009 Lyon",or. Lyon,or. Lyon
-45,38/45,7.28152519003338,43.705389154828,Republica Franceză,"1, Esplanade Kennedy, 06364 Nice Cedex 4",or. Nice,or. Nice
-46,38/46,13.4351548052486,52.4890113614109,Republica Federală Germania,"Campus Rütli, Haus E, Rütlistraße 9, 12045 Berlin",or. Berlin,or. Berlin
-47,38/47,12.3725495939849,51.3371056454885,Republica Franceză,"Stadtbüro Leipzig, Markgrafenstraße 3, 04109 Leipzig",or. Leipzig,or. Leipzig
-48,38/48,8.51919291171848,50.0994547742968,Republica Federală Germania,"Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul „Jahrhunderthalle”",or. Frankfurt pe Main,or. Frankfurt pe Main
-49,38/49,8.51846463980938,50.0994861951176,Republica Federală Germania,"Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul „Jahrhunderthalle”",or. Frankfurt pe Main,or. Frankfurt pe Main
-50,38/50,6.78690143225505,51.203175908126,Germania,"Brinckmannstraße 5, 40225 Düsseldorf",or. Dusseldorf,or. Dusseldorf
-51,38/51,8.80594680306587,53.0744854813209,Germania,"Radisson Blu Hotel, Boettcherstrasse 2, D. 28195 Bremen",or. Bremen,or. Bremen
-52,38/52,10.074491508254,53.5972904921826,Republica Federală Germania,"Haldesdorferstraße 46, 22179 Hamburg",or. Hamburg (consulatul onorific),or. Hamburg (consulatul onorific)
-53,38/53,11.5444952087192,48.132074375395,Republica Federală Germania,"Alte Kongresshalle Am Bavariapark, 14,80339 München",or. Munchen,or. Munchen
-54,38/54,9.17842651829433,48.8136739813213,Republica Federală Germania,Leitzstraße 45 70469 Stuttgart,or. Stuttgart (consulatul onorific),or. Stuttgart (consulatul onorific)
-55,38/55,9.69986905281255,52.3749295528363,Germania,"Freizeitheim Linden Windheimstr. 4, 30451 Hannover",or. Hanovra,or. Hanovra
-56,38/56,11.0835900230481,49.4564053212176,Germania,"Willstätter-Gymnasium Innerer Laufer Platz 11, 90403 Nürnberg",or. Nürnberg,or. Nürnberg
-57,38/57,-6.22922087371686,53.3239249053293,Irlanda,"Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4",or. Dublin,or. Dublin
-58,38/58,-6.22915907698769,53.3239362897379,Irlanda,"Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4",or. Dublin,or. Dublin
-59,38/59,-6.22924464168967,53.3239128093918,Irlanda,"Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4",or. Dublin,or. Dublin
-60,38/60,-8.62943405377167,52.6652550916441,Irlanda,"or. Limerick Shannon Rowing Club, Sarsfield Bridge, Limerick",or. Limerick,or. Limerick
-61,38/61,34.7804692369289,32.0821570826799,Israel,"or. Tel Aviv, str. Ibn Gabirol 71 (Centrul Cultural Enav)",or. Tel-Aviv,or. Tel-Aviv
-62,38/62,34.6491680838075,31.7787339191911,Israel,str. Kakal 90א (alef),or. Așdod,or. Așdod
-63,38/63,12.4257150912478,41.9457875989557,Republica Italiană,Via. Francesco Cherubini 27,or. Roma (sediul misiunii),or. Roma (sediul misiunii)
-64,38/64,12.5058062516333,41.8909801757999,Republica Italiană,"Roma, Via Galilei 53-57",or. Roma,or. Roma
-65,38/65,9.16347943141724,45.4510440347697,Republica Italiană,"Milano, Via Tortona 27",or. Milano (sediul Consulatului General),or. Milano (sediul Consulatului General)
-66,38/66,9.20679180794396,45.4805704157592,Republica Italiană,str via Boscovich 42,or. Milano,or. Milano
-67,38/67,11.8632329845314,45.4052455272727,Republica Italiană,Via Milazzo 22,or. Padova (sediul Consulatului),or. Padova (sediul Consulatului)
-68,38/68,11.8804015817499,45.414370640799,Republica Italiană,Via Diego Valeri 17,or. Padova,or. Padova
-69,38/69,13.5104253709978,43.5945671100754,Republica Italiană,Via della Montagnola 72,or. Ancona,or. Ancona
-70,38/70,9.64391183565196,45.6908034159836,Republica Italiană,Largo Roentgen nr. 3,or. Bergamo,or. Bergamo
-71,38/71,11.3850440176159,44.5097895407401,Republica Italiană,"Bologna, Via del Pilastro 2, Hotel Savoia",or. Bologna,or. Bologna
-72,38/72,9.68624541320064,45.0283717134356,Republica Italiană,"Strada Val Nure 7, Piacenza, Hotel Best Western Park",or. Piacenza,or. Piacenza
-73,38/73,10.2203991903786,45.5132930566288,Republica Italiană,"Via Ziziola 91, intrarea din Via San Zeno 168",or. Brescia,or. Brescia
-74,38/74,11.6087439922331,44.8785408024796,Republica Italiană,"Sala civica ""Nemesio Orsatti"", Pontelagoscuro, Via Risorgimento 4",or. Ferrara,or. Ferrara
-75,38/75,11.2555280856146,43.7799500729258,Republica Italiană,"Via Zanobi 55, Hotel Cellai",or. Florența (Firenze),or. Florența (Firenze)
-76,38/76,8.94448158759708,44.397099790104,Republica Italiană,"Municipio VIII Medio Levante, in Via Mascherpa 34 r",or. Genova,or. Genova
-77,38/77,10.5965658439604,45.3425807613503,,Via Faccioto 7,or. Mantova,or. Mantova
-78,38/78,12.2360299197695,45.4848099854674,Republica Italiană,Via Sernaglia 43,or. Mestre,or. Mestre
-79,38/79,10.9375203364978,44.6229666850114,Republica Italiană,Via Viterbo 80,or. Modena,or. Modena
-80,38/80,14.2504339643984,40.8403909921252,Republica Italiană,"piazza Municipio no.1, Palazzo San Giacomo",or. Napoli,or. Napoli
-81,38/81,10.3034724278204,44.794597701515,Republica Italiană,"Palazzetto dello Sport, via Silvio Pelico 14/A",or. Parma,or. Parma
-82,38/82,12.3701426676306,43.1001391387681,Republica Italiană,"Via Armando Diaz, 60, 06128 Perugia PG",or. Perugia,or. Perugia
-83,38/83,12.7451922921198,43.8358880376088,Republica Italiană,"Piazza Europa n.16, Pesaro",or. Pesaro-Urbino,or. Pesaro-Urbino
-84,38/84,12.2228203875526,44.418657219779,Republica Italiană,piazza medaglie d'oro 4 piano 1,or. Ravena,or. Ravena
-85,38/85,10.6085894220724,44.6976992098282,Republica Italiană,"via Jules Emile Massenet, 19",or. Reggio Emilia,or. Reggio Emilia
-86,38/86,7.65193431922768,45.0578668373044,Republica Italiană,Via Millio 20,or. Torino,or. Torino
-87,38/87,7.69823983556873,45.0859461137836,Republica Italiană,via Leoncavallo 23,or. Torino,or. Torino
-88,38/88,11.1278369586329,46.0515620308211,Republica Italiană,"or. Trento, str. La Clarina, 2/1",or. Trento,or. Trento
-89,38/89,12.2410266053996,45.6478377979131,Republica Italiană,"Strada Terraglio 140, Hotel Maggior Consiglio",or. Treviso,or. Treviso
-90,38/90,13.2492129364746,46.0546625552962,Republica Italiană,Via Pradamano 21,or. Udine,or. Udine
-91,38/91,10.9648591999859,45.4372544751748,Republica Italiană,"Palazzetto dello Sport di Verona , Piazzale Atleti Azzurri D'Italia, 1,",or. Verona,or. Verona
-92,38/92,11.525413905123,45.5374594868034,Republica Italiană,"Via Vaccari, 107",or. Vicenza,or. Vicenza
-93,38/93,12.549497593045,44.0679651775359,Republica Italiană,"Via XXIII Settembre 1845, 124c, sala Celle",or. Rimini,or. Rimini
-94,38/94,139.728790162952,35.7049819565324,Japonia,"Kagurazaka Enoki Building, et. 3,Enoki-cho nr. 72, Shinjuku-ku or. Tokio, codul poştal: 1620806",or. Tokyo (sediul misiunii),or. Tokyo (sediul misiunii)
-95,38/95,24.106794544933,56.9591733774869,Republica Letonia,"LV-1010, Riga str. Strelnieku nr.1-1,",or. Riga (sediul misiunii),or. Riga (sediul misiunii)
-96,38/96,25.2439072850107,54.700568596281,Republica Lituania,"LT-08102, Vilnius, Miglos gatve nr. 61A",or. Vilnius (sediul misiunii),or. Vilnius (sediul misiunii)
-97,38/97,0.0590642700835944,51.6062210110155,Regatul Unit al Marii Britanii şi Irlandei de Nord,"London Chigwell Prince Regent Hotel, Manor Rd Woodford, Chigwell, Woodford Green IG8 8AE",or. Londra,or. Londra
-98,38/98,-0.214187638930869,51.5049542292333,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Hilton London Kensington, 179-199 Holland Park Ave, Holland Park, London W11 4UL",or. Londra,or. Londra
-99,38/99,0.170877822234935,51.5185884638936,Regatul Unit al Marii Britanii şi Irlandei de Nord,"CEME Conference Centre, Marsh Way, Rainham, Essex, RM13 8EU",or. Londra,or. Londra
-100,38/100,0.171600273317986,51.5184520284107,Regatul Unit al Marii Britanii şi Irlandei de Nord,"CEME Conference Centre, Marsh Way, Rainham, Essex RM13 8EU",or. Londra,or. Londra
-101,38/101,0.0593144279966955,51.6062458006303,Regatul Unit al Marii Britanii şi Irlandei de Nord,"London Chigwell Prince Regent Hotel, Manor Rd, Woodford, Chigwell, Woodford Green IG8 8AE",or. Londra,or. Londra
-102,38/102,0.170579042754843,51.5187148069185,Regatul Unit al Marii Britanii şi Irlandei,"CEME Conference Centre, Marsh Way, Rainham, Essex RM13 8EU",or. Londra,or. Londra
-103,38/103,-1.88531970280032,52.5097402402901,Regatul Unit al Marii Britanii şi Irlandei,"Levy UK at Villa Park, Home of Aston Villa Football Club Villa Park Birmingham B6 6HE",or. Birmingham,or. Birmingham
-104,38/104,-4.26675864321055,55.8653527795832,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Renfield Centre 260Bath Street, Glasgow, G2 4JP",or. Glasgow,or. Glasgow
-105,38/105,-2.24127205922494,53.4776610689106,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Novotel Manchester Centre, 21 Dickinson Street, Manchester M1 4LX",or. Manchester,or. Manchester
-106,38/106,-0.89046507932809,52.2425507921281,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Restaurant “Moldova”, str. 76-92 Great Russell Street; Northampton, NN1 3BU",or. Northampton,or. Northampton
-107,38/107,-0.942146943609313,52.2507605257405,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Duston Community Centre Pendle Rd, Northampton NN5 6DT",or. Northampton,or. Northampton
-108,38/108,10.7029834728515,59.9208069212727,Regatul Norvegiei,"or. Oslo, Zahlkasserer Schafts plass 1, 0267",or. Oslo,or. Oslo
-109,38/109,21.0346995051247,52.1866428392537,Republica Poloneză,"02-710, Varșovia str. Imielinska nr. 1",or. Varşovia (sediul misiunii),or. Varşovia (sediul misiunii)
-110,38/110,-9.21149645756333,38.7059050774315,Republica Portugheză,"or. Lisabona, 1400-188, Lisabona, Rua Goncalo Velho Cabral, 30-31",or. Lisabona (sediul misiunii),or. Lisabona (sediul misiunii)
-111,38/111,-8.53750746008105,37.139448420201,Republica Portugheză,"Praça da República, 25, 8500-540, „Junta de Freguesia de Portimão”",or. Portimao,or. Portimao
-112,38/112,-8.86275077589208,38.5215593446109,Republica Portugheză,"Centro Multicultural, Rua das Piteiras, 2910-638, Setúbal.",or. Setubal,or. Setubal
-113,38/113,4.3301502563927,52.0852188230016,Regatul Ţărilor de Jos,"str. Bezuidenhoutseweg 117, 2594AD Den Haag",or. Haga (sediul misiunii),or. Haga (sediul misiunii)
-114,38/114,26.0984312465398,44.432485762319,România,"mun. București, str. Eugeniu Carada 1, sector 3",or. Bucureşti,or. Bucureşti
-115,38/115,26.0991580377904,44.4317744252502,România,"str. Stavropoleus, 6 (Incinta Autorității Electorale Permanente)",or. Bucureşti,or. Bucureşti
-116,38/116,27.5773048216773,47.1704137618354,România,"Str.Vasile Conta, nr.30, cod 700106, Iași.",or. Iaşi (sediul Casa de Cultură a Studenților),or. Iaşi (sediul Casa de Cultură a Studenților)
-117,38/117,26.9138445132111,46.5550414969008,România,"Universitatea ”Vasile Alecsandri”, Calea Mărășești, nr. 157",or. Bacău,or. Bacău
-118,38/118,25.5812049409058,45.6549127764751,România,"Casa de Cultură a Studenţilor, str. Memorandumului nr. 39",or. Braşov,or. Braşov
-119,38/119,23.5863813748118,46.7665544795966,România,"Casa de Cultură a Studenților, Piata ”Lucian Blaga” nr.1-3",or. Cluj-Napoca,or. Cluj-Napoca
-120,38/120,28.6499367098499,44.1946456522826,România,"Incinta Universității ""Ovidius"", Bd. Mamaia 124, Aleea Universității 1",or. Constanţa,or. Constanţa
-121,38/121,23.8008073897882,44.3188017226478,România,"Universitatea ”Craiova”, str. Alexandru Ioan Cuza nr. 13",or. Craiova,or. Craiova
-122,38/122,28.0558474041162,45.4386080092673,România,"Universității ""Dunărea de Jos"", str. Domnească 47",or. Galaţi,or. Galaţi
-123,38/123,24.1465902237348,45.78925793723,România,"Școala Gimnazială Regina Maria, str. Zaharia Boiu 1, jud. Sibiu",or. Sibiu,or. Sibiu
-124,38/124,26.245506944742,47.6417455929859,România,"Universității ""Stefan cel Mare"", str. Universității 13",or. Suceava,or. Suceava
-125,38/125,21.234829609397,45.7468279528098,România,"Colegiul Național de Artă ”Ion Vidu”, str. Cluj nr.12",or. Timişoara,or. Timişoara
-126,38/126,-3.69623930964711,40.3476645489489,Regatul Spaniei,"Calle Cifuentes nr. 5, distrito Villaverde, Madrid (edificiul La Nave) CP 28021,","or. Madrid, Regatul Spaniei","or. Madrid, Regatul Spaniei"
-127,38/127,2.12788796923166,41.3794083410211,Regatul Spaniei,"Calle Comandante Benitez, nr. 6 , Centro Cívico Joan Oliver ""Pere Quart, CP 08028, Barcelona",or. Barcelona,or. Barcelona
-128,38/128,-4.43922770108342,36.6981327013835,Regatul Spaniei,"Calle Concejal Muñoz Cerván nº 3, módulo 3 (edificiul Tabacalera), Salón de Actos de Participación Ciudadana, Málaga",or. Malaga,or. Malaga
-129,38/129,-3.82511120348861,43.4579160464293,Regatul Spaniei,"Calle Alta, no. 133, Mercado México, Santander",or. Santander,or. Santander
-130,38/130,-0.408977300040047,39.454997561016,Regatul Spaniei,"Career de Rei Said, S/N, CP 46014, Valencia",or. Valencia,or. Valencia
-131,38/131,-77.0466794159846,38.9142463114448,Statele Unite ale Americii,"2101 S Street N.W., Washington DC 20008","or. Washington, DC (sediul misiunii)","or. Washington, DC (sediul misiunii)"
-132,38/132,-73.9626170901716,40.6129425722282,Statele Unite ale Americii,"1827 Coney Island Ave, Brooklyn, NY 11230, Restaurant Moldova","or. New York, NY","or. New York, NY"
-133,38/133,-82.5508048511058,35.5991952437444,Statele Unite ale Americii,"Four Points by Sheraton Asheville Downtown 22 Woodfin St, Asheville, NC 28801","or. Asheville, NC","or. Asheville, NC"
-134,38/134,-83.9876846154684,33.955305244016,Statele Unite ale Americii,"165 S Clayton Str, Lawrenceville, GA 30046 Lawrenceville First Baptist Church","or. Atlanta, GA","or. Atlanta, GA"
-135,38/135,-71.2002574627203,42.3606450811312,Statele Unite ale Americii,"344 Watertown St, Newton, MA 02458","or. Boston, MA","or. Boston, MA"
-136,38/136,-87.7909952790632,42.0139084594642,Statele Unite ale Americii,"7280 N Caldwell Ave., Niles, IL 60714 Logos Christian Academy","or. Chicago, IL","or. Chicago, IL"
-137,38/137,-96.7752789958949,33.0693683409222,Statele Unite ale Americii,"4140 Legacy Drive, Suite 300,Plano, TX 75024 Edelweiss School of Music","or. Dallas, TX","or. Dallas, TX"
-138,38/138,-105.065359351309,39.7416592445897,Statele Unite ale Americii,"1555 Jay St., Lakewood, CO, 8011 Romanian Orthodox Church St. John the Hozevite (Biserica Ortodoxă Românească ""Sf. Ioan Hozevitul"")","or. Denver, CO","or. Denver, CO"
-139,38/139,-93.4294762829479,45.0918519239257,Statele Unite ale Americii,"11801 Fountains Way N, Maple Grove, MN 55369","or. Minneapolis, MN","or. Minneapolis, MN"
-140,38/140,-81.4282829080972,28.4386037696998,Statele Unite ale Americii,"Orlando-John Young Parkway 7500 Futures Drive, Orlando, FL 32819","or. Orlando, FL","or. Orlando, FL"
-141,38/141,-121.32815816398,38.6502115244257,Statele Unite ale Americii,"4715 Manzanita Ave, Carmichael, CA 95608","or. Sacramento, CA","or. Sacramento, CA"
-142,38/142,-122.245749273786,47.251403740846,Statele Unite ale Americii,"1050 Butte Ave SE, Pacific WA 98047","or. Seattle, WA","or. Seattle, WA"
-143,38/143,-115.241003473224,36.0147508725306,Statele Unite ale Americii,"6787 W Gary Ave, Las Vegas, NV 89139 Beyoglu","or. Las Vegas, NV","or. Las Vegas, NV"
-144,38/144,51.5157674737272,25.3512581962302,Statul Qatar,"Vila 151, str. 826 Al Mabahej, Area 66 Al Dafna, or. Doha, Statul Qatar.",or. Doha (sediul misiunii),or. Doha (sediul misiunii)
-145,38/145,18.0723056543263,59.3432580502986,Regatul Suediei,"11432, Engelbrektsgatan 10, et. 3",or. Stockholm (sediul misiunii),or. Stockholm (sediul misiunii)
-146,38/146,32.8447716527008,39.9303086870568,Republica Turcia,"Hotel İçkale, Maltepe, Gazi Mustafa Kemal Blv. No:89, 06570 Çankaya/Ankara",or. Ankara,or. Ankara
-147,38/147,28.9927308400729,41.0370663324755,Republica Turcia,"Inönü cad. № 18, D.1, Gümüşsuyu Palas, 34437, Ömer Avni Mahallesi, Istanbul",or. Istanbul (sediul Consulatului General),or. Istanbul (sediul Consulatului General)
-148,38/148,30.5387198411926,50.4110824751909,Ucraina,"or. Kiev, str. Yagotinska 2",or. Kiev (sediul misiunii),or. Kiev (sediul misiunii)
-149,38/149,30.7581663255946,46.4322902328131,Ucraina,"or Odesa, str. Posmitîi 2/2 ""Б""",or. Odesa (sediul Consulatului),or. Odesa (sediul Consulatului)
-150,38/150,19.0275911262791,47.514833496604,Republica Ungară,"1024 Budapest, Ady Endre utca 16",or. Budapesta (sediul misiunii),or. Budapesta (sediul misiunii)
+1,38/1,48.2067794038494,16.3942884358781,Republica Austria,"Löwengasse 47, 1030, Viena",or. Viena (sediul misiunii),or. Viena (sediul misiunii)
+2,38/2,40.3681262699487,49.8180180692589,Republica Azerbaidjan,"Baku, bl.Huseyn Javid, 520, bl.12",or. Baku (sediul misiunii),or. Baku (sediul misiunii)
+3,38/3,53.8934698414818,27.5610524027423,Republica Belarus,"Minsk, 220030, str. Belarusskaia nr.2",or. Minsk (sediul misiunii),or. Minsk (sediul misiunii)
+4,38/4,50.8085899283451,4.38361853007582,Regatul Belgiei,"avenue Franklin Roosevelt 57, 1050",or. Bruxelles (sediul Ambasadei),or. Bruxelles (sediul Ambasadei)
+5,38/5,50.8086614628759,4.38355911011305,Regatul Belgiei,"avenue Franklin Roosevelt 55, 1050",or. Bruxelles (sediul misiunii),or. Bruxelles (sediul misiunii)
+6,38/6,42.6873012145021,23.3227361273277,Republica Bulgară,"1142, str. Georgi Sava Rakovski nr.152.",or. Sofia (sediul misiunii),or. Sofia (sediul misiunii)
+7,38/7,45.4187817385598,-75.7015943798155,Canada,"275 Slater Street, Suite 801, Ottawa, ON K1P 5H9","or. Ottawa, ON (sediul misiunii)","or. Ottawa, ON (sediul misiunii)"
+8,38/8,50.9981436148933,-114.112112774483,Canada,"North Glenmore Park Community Association, 2231 Longridge Drive SW, Calgary, T3E 5N5",or. Calgary,or. Calgary
+9,38/9,45.4958765710129,-73.620721045332,Canada,"Hotel Terrasse Royal/5225 Côte-des-Neiges, Montréal, QC H3T 1Y","or. Montreal, QC","or. Montreal, QC"
+10,38/10,43.7556746195695,-79.4715027652153,Canada,"1170 Sheppard Avenue West, Unit 15, Toronto ON, M3K 2A3","or. Toronto, ON","or. Toronto, ON"
+11,38/11,50.1073245909772,14.4025831790535,Republica Cehă,"str. Juárezova 14, 16000, Praga 6 - Bubeneč",or. Praga (sediul misiunii),or. Praga (sediul misiunii)
+12,38/12,39.9440905114237,116.445346116183,Republica Populară Chineză,"100600 Beijing, Chaoyang District, Liangmahe South Road 14, Ta Yuan Diplomatic Office Building 2-9-1",or. Beijing (sediul misiunii),or. Beijing (sediul misiunii)
+13,38/13,34.7009209348037,33.0982510964076,Republica Cipru,"str. Stymfalidon 11, Potamos Yermasoyias 4046 (Atlantica Oasis Hotel)",or. Limassol,or. Limassol
+14,38/14,55.6503854726054,12.5432750289258,Regatul Danemarcei,or. Copenhaga Aalborg University Copenhagen A. C. Meyers Vænge 15 2450 Copenhagen SV,or. Copenhaga,or. Copenhaga
+15,38/15,37.9992192695219,23.7663728628901,Republica Elenă,"sec. Nea Filothei, str. Geor. Mpakou 20 C.P. 115 24",or. Atena (sediul misiunii),or. Atena (sediul misiunii)
+16,38/16,46.2200106028935,6.14378155906306,Confederația Elvețiană,"Avenue de France 23, 1202. Geneva",or. Geneva (sediul misiunii),or. Geneva (sediul misiunii)
+17,38/17,24.4446800032803,54.3877333965117,Emiratele Arabe Unite,"Vila Nr. 20, St. Al Darahy, Mushrif, Abu Dhabi, C.P. 31705",or. Abu Dhabi (sediul misiunii),or. Abu Dhabi (sediul misiunii)
+18,38/18,59.4298319557056,24.747240611403,Republică Estonia,"str.Tatari 20,10116, Tallinn",or. Tallinn (sediul misiunii),or. Tallinn (sediul misiunii)
+19,38/19,55.76188674807,37.6226534082661,Federaţia Rusă,"Sediul Ambasadei. Str. Rojdestvenka 7, statia de metrou Kuznețkii Most",or. Moscova (sediul misiunii),or. Moscova (sediul misiunii)
+20,38/20,55.76358866132,37.6225494237804,Federaţia Rusă,"Institutul de Arhitectură din Moscova, str.Rojdestvenka 11/4, cladirea 1/4, ул. Рождественка, 11/4 корпус 1 строение 4:",or. Moscova,or. Moscova
+21,38/21,55.7610249583099,37.6245925035536,Federaţia Rusă,"or.Moscova, Casa centrală a oamenilor de arta, str. Pusecinaia 9/6 cl. 1, statia de metrou Kuznețkii Most",or. Moscova,or. Moscova
+22,38/22,55.6241166371365,37.4991724760229,Federaţia Rusă,"or. Moscova Complexul educațional de planificare urbana ""Capitala"", str. Profsoiuznaia, 154, cladirea 7 ул. Профсоюзная, 154 корпус 7",or. Moscova,or. Moscova
+23,38/23,55.6010978199094,37.4705893102536,Federaţia Rusă,"or. Domodedovo, Sovhozul numelui lui V.I. Lenin, Casa cultura, cl.7, stația de metrou Domodedovscaia , auto 44, 308, 364, 404.",Regiunea Moscova,Regiunea Moscova
+24,38/24,55.9279789399282,37.7738759711797,Federaţia Rusă,"reg. Moscova, or. Mîtisci, str. Silikatnaia nr. 12 Casa de cultură a tineretului",Regiunea Moscova,Regiunea Moscova
+25,38/25,55.6745722808672,37.2835684418239,Federaţia Rusă,"reg. Moscova, or. Odintovo, scoala nr. 5, str. Vokzalnaia st.5",Regiunea Moscova,Regiunea Moscova
+26,38/26,55.5889214413224,37.7525609067998,Federaţia Rusă,"Московская обл. Ленинский г.о.,поселок развилка,32.,Развиловская библиотека","Regiunea Moscova, Federaţia Rusă","Regiunea Moscova, Federaţia Rusă"
+27,38/27,55.8855512060308,37.4296213729482,Federaţia Rusă,"г.Химки, Горшина,5а, школа нр.27","Regiunea Moscova, Federaţia Rusă","Regiunea Moscova, Federaţia Rusă"
+28,38/28,55.145178185681,37.4680786496804,Federaţia Rusă,"г.Чехов, Чехова, 45, КТЦ Дружба","Regiunea Moscova, Federaţia Rusă","Regiunea Moscova, Federaţia Rusă"
+29,38/29,55.676119766835,37.8975736503111,Federaţia Rusă,"г.Люберцы, Октябрьский проспект, 200,ДК",Regiunea Moscova,Regiunea Moscova
+30,38/30,55.8200203972881,37.371637397764,Federaţia Rusă,"г.Красногорск, Игната Титова, 10, школа нр.19",or. Kostroma,or. Kostroma
+31,38/31,59.94406431651,30.3446644799369,Federaţia Rusă,"Санкт Петербург, Мoховая, 15а, Дом национальностей.","or. Sankt-Petersburg, Federaţia Rusă","or. Sankt-Petersburg, Federaţia Rusă"
+32,38/32,59.9707451990719,30.3434547394112,Federaţia Rusă,or. Sankt-Petersburg (nord) Casa de cultură str. Smoleacikova nr. 13,or. Sankt-Petersburg,or. Sankt-Petersburg
+33,38/33,59.8762802323372,30.3159046807634,Federaţia Rusă,"strBlagodatnaia nr 20 Biblioteca specializată literatură juridică și economică Благодатная ул., 20",or. Sankt-Petersburg,or. Sankt-Petersburg
+34,38/34,54.2002941332963,37.6125225462583,Federaţia Rusă,"Sala de concert orășenească str. Sovețkaia 2 ул. Советская, 2",or. Tula,or. Tula
+35,38/35,54.5154868216102,36.2641979833088,Federaţia Rusă,"Калуга, Народный Дом, ул. Ленна 74",or. Sankt-Petersburg,or. Sankt-Petersburg
+36,38/36,48.8343095631536,2.33569745073512,Republica Franceză,"Ecole ARAGO, 87 bd Arago, 75014 Paris",or. Paris,or. Paris
+37,38/37,48.8846887707357,2.3216767255976,Republica Franceză,"16-20 rue des Batignolles, 75017 Paris (incinta Primăriei sectorul 17)",or. Paris și regiunea orașului Paris,or. Paris și regiunea orașului Paris
+38,38/38,48.8857142557968,2.36625836149338,Republica Franceză,"28-30 rue d'Aubervilliers, 75019 Paris",or. Villeneuve-Saint-Georges,or. Villeneuve-Saint-Georges
+39,38/39,48.787122957985,2.42951332254448,Republica Franceză,"Salle Roger Delmas, 3 rue de Toulon,94140 Alfortville",or. Paris (sediul misiunii),or. Paris (sediul misiunii)
+40,38/40,48.8608226002959,2.43764653900356,Republica Franceză,"50, avenue de la Résistance, 93100 Montreuil",or. Paris și regiunea orașului Paris,or. Paris și regiunea orașului Paris
+41,38/41,48.7328647128988,2.4477582268821,Republica Franceză,"Espace Cocteau, 8, avenue Carnot, 94190 VilleneuveSaint-Georges",or. Paris și regiunea or. Paris,or. Paris și regiunea or. Paris
+42,38/42,48.5917779547299,7.77008410689089,Republica Franceză,"76 Allee de la Robertsau, 67000 Strasbourg - Association Parlementaire Européenne",or. Strasbourg,or. Strasbourg
+43,38/43,44.820479033918,-0.571429194893894,Republica Franceză,"Bordeaux – Salle MALBEC Nansouty, 250 rue Malbec, 33000 Bordeaux",or. Bordeaux,or. Bordeaux
+44,38/44,45.7670999252524,4.80413458226414,Republica Franceză,"Espace Jean Couty, 1, rue de la Pépinière Royale, 69009 Lyon",or. Lyon,or. Lyon
+45,38/45,43.705389154828,7.28152519003338,Republica Franceză,"1, Esplanade Kennedy, 06364 Nice Cedex 4",or. Nice,or. Nice
+46,38/46,52.4890113614109,13.4351548052486,Republica Federală Germania,"Campus Rütli, Haus E, Rütlistraße 9, 12045 Berlin",or. Berlin,or. Berlin
+47,38/47,51.3371056454885,12.3725495939849,Republica Franceză,"Stadtbüro Leipzig, Markgrafenstraße 3, 04109 Leipzig",or. Leipzig,or. Leipzig
+48,38/48,50.0994547742968,8.51919291171848,Republica Federală Germania,"Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul „Jahrhunderthalle”",or. Frankfurt pe Main,or. Frankfurt pe Main
+49,38/49,50.0994861951176,8.51846463980938,Republica Federală Germania,"Pfaffenwiese 301, 65929 Frankfurt am Main, Centrul „Jahrhunderthalle”",or. Frankfurt pe Main,or. Frankfurt pe Main
+50,38/50,51.203175908126,6.78690143225505,Germania,"Brinckmannstraße 5, 40225 Düsseldorf",or. Dusseldorf,or. Dusseldorf
+51,38/51,53.0744854813209,8.80594680306587,Germania,"Radisson Blu Hotel, Boettcherstrasse 2, D. 28195 Bremen",or. Bremen,or. Bremen
+52,38/52,53.5972904921826,10.074491508254,Republica Federală Germania,"Haldesdorferstraße 46, 22179 Hamburg",or. Hamburg (consulatul onorific),or. Hamburg (consulatul onorific)
+53,38/53,48.132074375395,11.5444952087192,Republica Federală Germania,"Alte Kongresshalle Am Bavariapark, 14,80339 München",or. Munchen,or. Munchen
+54,38/54,48.8136739813213,9.17842651829433,Republica Federală Germania,Leitzstraße 45 70469 Stuttgart,or. Stuttgart (consulatul onorific),or. Stuttgart (consulatul onorific)
+55,38/55,52.3749295528363,9.69986905281255,Germania,"Freizeitheim Linden Windheimstr. 4, 30451 Hannover",or. Hanovra,or. Hanovra
+56,38/56,49.4564053212176,11.0835900230481,Germania,"Willstätter-Gymnasium Innerer Laufer Platz 11, 90403 Nürnberg",or. Nürnberg,or. Nürnberg
+57,38/57,53.3239249053293,-6.22922087371686,Irlanda,"Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4",or. Dublin,or. Dublin
+58,38/58,53.3239362897379,-6.22915907698769,Irlanda,"Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4",or. Dublin,or. Dublin
+59,38/59,53.3239128093918,-6.22924464168967,Irlanda,"Royal Dublin Society, Hall 8C Simmonscourt, Simmonscourt Road, Dublin 4",or. Dublin,or. Dublin
+60,38/60,52.6652550916441,-8.62943405377167,Irlanda,"or. Limerick Shannon Rowing Club, Sarsfield Bridge, Limerick",or. Limerick,or. Limerick
+61,38/61,32.0821570826799,34.7804692369289,Israel,"or. Tel Aviv, str. Ibn Gabirol 71 (Centrul Cultural Enav)",or. Tel-Aviv,or. Tel-Aviv
+62,38/62,31.7787339191911,34.6491680838075,Israel,str. Kakal 90א (alef),or. Așdod,or. Așdod
+63,38/63,41.9457875989557,12.4257150912478,Republica Italiană,Via. Francesco Cherubini 27,or. Roma (sediul misiunii),or. Roma (sediul misiunii)
+64,38/64,41.8909801757999,12.5058062516333,Republica Italiană,"Roma, Via Galilei 53-57",or. Roma,or. Roma
+65,38/65,45.4510440347697,9.16347943141724,Republica Italiană,"Milano, Via Tortona 27",or. Milano (sediul Consulatului General),or. Milano (sediul Consulatului General)
+66,38/66,45.4805704157592,9.20679180794396,Republica Italiană,str via Boscovich 42,or. Milano,or. Milano
+67,38/67,45.4052455272727,11.8632329845314,Republica Italiană,Via Milazzo 22,or. Padova (sediul Consulatului),or. Padova (sediul Consulatului)
+68,38/68,45.414370640799,11.8804015817499,Republica Italiană,Via Diego Valeri 17,or. Padova,or. Padova
+69,38/69,43.5945671100754,13.5104253709978,Republica Italiană,Via della Montagnola 72,or. Ancona,or. Ancona
+70,38/70,45.6908034159836,9.64391183565196,Republica Italiană,Largo Roentgen nr. 3,or. Bergamo,or. Bergamo
+71,38/71,44.5097895407401,11.3850440176159,Republica Italiană,"Bologna, Via del Pilastro 2, Hotel Savoia",or. Bologna,or. Bologna
+72,38/72,45.0283717134356,9.68624541320064,Republica Italiană,"Strada Val Nure 7, Piacenza, Hotel Best Western Park",or. Piacenza,or. Piacenza
+73,38/73,45.5132930566288,10.2203991903786,Republica Italiană,"Via Ziziola 91, intrarea din Via San Zeno 168",or. Brescia,or. Brescia
+74,38/74,44.8785408024796,11.6087439922331,Republica Italiană,"Sala civica ""Nemesio Orsatti"", Pontelagoscuro, Via Risorgimento 4",or. Ferrara,or. Ferrara
+75,38/75,43.7799500729258,11.2555280856146,Republica Italiană,"Via Zanobi 55, Hotel Cellai",or. Florența (Firenze),or. Florența (Firenze)
+76,38/76,44.397099790104,8.94448158759708,Republica Italiană,"Municipio VIII Medio Levante, in Via Mascherpa 34 r",or. Genova,or. Genova
+77,38/77,45.3425807613503,10.5965658439604,,Via Faccioto 7,or. Mantova,or. Mantova
+78,38/78,45.4848099854674,12.2360299197695,Republica Italiană,Via Sernaglia 43,or. Mestre,or. Mestre
+79,38/79,44.6229666850114,10.9375203364978,Republica Italiană,Via Viterbo 80,or. Modena,or. Modena
+80,38/80,40.8403909921252,14.2504339643984,Republica Italiană,"piazza Municipio no.1, Palazzo San Giacomo",or. Napoli,or. Napoli
+81,38/81,44.794597701515,10.3034724278204,Republica Italiană,"Palazzetto dello Sport, via Silvio Pelico 14/A",or. Parma,or. Parma
+82,38/82,43.1001391387681,12.3701426676306,Republica Italiană,"Via Armando Diaz, 60, 06128 Perugia PG",or. Perugia,or. Perugia
+83,38/83,43.8358880376088,12.7451922921198,Republica Italiană,"Piazza Europa n.16, Pesaro",or. Pesaro-Urbino,or. Pesaro-Urbino
+84,38/84,44.418657219779,12.2228203875526,Republica Italiană,piazza medaglie d'oro 4 piano 1,or. Ravena,or. Ravena
+85,38/85,44.6976992098282,10.6085894220724,Republica Italiană,"via Jules Emile Massenet, 19",or. Reggio Emilia,or. Reggio Emilia
+86,38/86,45.0578668373044,7.65193431922768,Republica Italiană,Via Millio 20,or. Torino,or. Torino
+87,38/87,45.0859461137836,7.69823983556873,Republica Italiană,via Leoncavallo 23,or. Torino,or. Torino
+88,38/88,46.0515620308211,11.1278369586329,Republica Italiană,"or. Trento, str. La Clarina, 2/1",or. Trento,or. Trento
+89,38/89,45.6478377979131,12.2410266053996,Republica Italiană,"Strada Terraglio 140, Hotel Maggior Consiglio",or. Treviso,or. Treviso
+90,38/90,46.0546625552962,13.2492129364746,Republica Italiană,Via Pradamano 21,or. Udine,or. Udine
+91,38/91,45.4372544751748,10.9648591999859,Republica Italiană,"Palazzetto dello Sport di Verona , Piazzale Atleti Azzurri D'Italia, 1,",or. Verona,or. Verona
+92,38/92,45.5374594868034,11.525413905123,Republica Italiană,"Via Vaccari, 107",or. Vicenza,or. Vicenza
+93,38/93,44.0679651775359,12.549497593045,Republica Italiană,"Via XXIII Settembre 1845, 124c, sala Celle",or. Rimini,or. Rimini
+94,38/94,35.7049819565324,139.728790162952,Japonia,"Kagurazaka Enoki Building, et. 3,Enoki-cho nr. 72, Shinjuku-ku or. Tokio, codul poştal: 1620806",or. Tokyo (sediul misiunii),or. Tokyo (sediul misiunii)
+95,38/95,56.9591733774869,24.106794544933,Republica Letonia,"LV-1010, Riga str. Strelnieku nr.1-1,",or. Riga (sediul misiunii),or. Riga (sediul misiunii)
+96,38/96,54.700568596281,25.2439072850107,Republica Lituania,"LT-08102, Vilnius, Miglos gatve nr. 61A",or. Vilnius (sediul misiunii),or. Vilnius (sediul misiunii)
+97,38/97,51.6062210110155,0.0590642700835944,Regatul Unit al Marii Britanii şi Irlandei de Nord,"London Chigwell Prince Regent Hotel, Manor Rd Woodford, Chigwell, Woodford Green IG8 8AE",or. Londra,or. Londra
+98,38/98,51.5049542292333,-0.214187638930869,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Hilton London Kensington, 179-199 Holland Park Ave, Holland Park, London W11 4UL",or. Londra,or. Londra
+99,38/99,51.5185884638936,0.170877822234935,Regatul Unit al Marii Britanii şi Irlandei de Nord,"CEME Conference Centre, Marsh Way, Rainham, Essex, RM13 8EU",or. Londra,or. Londra
+100,38/100,51.5184520284107,0.171600273317986,Regatul Unit al Marii Britanii şi Irlandei de Nord,"CEME Conference Centre, Marsh Way, Rainham, Essex RM13 8EU",or. Londra,or. Londra
+101,38/101,51.6062458006303,0.0593144279966955,Regatul Unit al Marii Britanii şi Irlandei de Nord,"London Chigwell Prince Regent Hotel, Manor Rd, Woodford, Chigwell, Woodford Green IG8 8AE",or. Londra,or. Londra
+102,38/102,51.5187148069185,0.170579042754843,Regatul Unit al Marii Britanii şi Irlandei,"CEME Conference Centre, Marsh Way, Rainham, Essex RM13 8EU",or. Londra,or. Londra
+103,38/103,52.5097402402901,-1.88531970280032,Regatul Unit al Marii Britanii şi Irlandei,"Levy UK at Villa Park, Home of Aston Villa Football Club Villa Park Birmingham B6 6HE",or. Birmingham,or. Birmingham
+104,38/104,55.8653527795832,-4.26675864321055,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Renfield Centre 260Bath Street, Glasgow, G2 4JP",or. Glasgow,or. Glasgow
+105,38/105,53.4776610689106,-2.24127205922494,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Novotel Manchester Centre, 21 Dickinson Street, Manchester M1 4LX",or. Manchester,or. Manchester
+106,38/106,52.2425507921281,-0.89046507932809,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Restaurant “Moldova”, str. 76-92 Great Russell Street; Northampton, NN1 3BU",or. Northampton,or. Northampton
+107,38/107,52.2507605257405,-0.942146943609313,Regatul Unit al Marii Britanii şi Irlandei de Nord,"Duston Community Centre Pendle Rd, Northampton NN5 6DT",or. Northampton,or. Northampton
+108,38/108,59.9208069212727,10.7029834728515,Regatul Norvegiei,"or. Oslo, Zahlkasserer Schafts plass 1, 0267",or. Oslo,or. Oslo
+109,38/109,52.1866428392537,21.0346995051247,Republica Poloneză,"02-710, Varșovia str. Imielinska nr. 1",or. Varşovia (sediul misiunii),or. Varşovia (sediul misiunii)
+110,38/110,38.7059050774315,-9.21149645756333,Republica Portugheză,"or. Lisabona, 1400-188, Lisabona, Rua Goncalo Velho Cabral, 30-31",or. Lisabona (sediul misiunii),or. Lisabona (sediul misiunii)
+111,38/111,37.139448420201,-8.53750746008105,Republica Portugheză,"Praça da República, 25, 8500-540, „Junta de Freguesia de Portimão”",or. Portimao,or. Portimao
+112,38/112,38.5215593446109,-8.86275077589208,Republica Portugheză,"Centro Multicultural, Rua das Piteiras, 2910-638, Setúbal.",or. Setubal,or. Setubal
+113,38/113,52.0852188230016,4.3301502563927,Regatul Ţărilor de Jos,"str. Bezuidenhoutseweg 117, 2594AD Den Haag",or. Haga (sediul misiunii),or. Haga (sediul misiunii)
+114,38/114,44.432485762319,26.0984312465398,România,"mun. București, str. Eugeniu Carada 1, sector 3",or. Bucureşti,or. Bucureşti
+115,38/115,44.4317744252502,26.0991580377904,România,"str. Stavropoleus, 6 (Incinta Autorității Electorale Permanente)",or. Bucureşti,or. Bucureşti
+116,38/116,47.1704137618354,27.5773048216773,România,"Str.Vasile Conta, nr.30, cod 700106, Iași.",or. Iaşi (sediul Casa de Cultură a Studenților),or. Iaşi (sediul Casa de Cultură a Studenților)
+117,38/117,46.5550414969008,26.9138445132111,România,"Universitatea ”Vasile Alecsandri”, Calea Mărășești, nr. 157",or. Bacău,or. Bacău
+118,38/118,45.6549127764751,25.5812049409058,România,"Casa de Cultură a Studenţilor, str. Memorandumului nr. 39",or. Braşov,or. Braşov
+119,38/119,46.7665544795966,23.5863813748118,România,"Casa de Cultură a Studenților, Piata ”Lucian Blaga” nr.1-3",or. Cluj-Napoca,or. Cluj-Napoca
+120,38/120,44.1946456522826,28.6499367098499,România,"Incinta Universității ""Ovidius"", Bd. Mamaia 124, Aleea Universității 1",or. Constanţa,or. Constanţa
+121,38/121,44.3188017226478,23.8008073897882,România,"Universitatea ”Craiova”, str. Alexandru Ioan Cuza nr. 13",or. Craiova,or. Craiova
+122,38/122,45.4386080092673,28.0558474041162,România,"Universității ""Dunărea de Jos"", str. Domnească 47",or. Galaţi,or. Galaţi
+123,38/123,45.78925793723,24.1465902237348,România,"Școala Gimnazială Regina Maria, str. Zaharia Boiu 1, jud. Sibiu",or. Sibiu,or. Sibiu
+124,38/124,47.6417455929859,26.245506944742,România,"Universității ""Stefan cel Mare"", str. Universității 13",or. Suceava,or. Suceava
+125,38/125,45.7468279528098,21.234829609397,România,"Colegiul Național de Artă ”Ion Vidu”, str. Cluj nr.12",or. Timişoara,or. Timişoara
+126,38/126,40.3476645489489,-3.69623930964711,Regatul Spaniei,"Calle Cifuentes nr. 5, distrito Villaverde, Madrid (edificiul La Nave) CP 28021,","or. Madrid, Regatul Spaniei","or. Madrid, Regatul Spaniei"
+127,38/127,41.3794083410211,2.12788796923166,Regatul Spaniei,"Calle Comandante Benitez, nr. 6 , Centro Cívico Joan Oliver ""Pere Quart, CP 08028, Barcelona",or. Barcelona,or. Barcelona
+128,38/128,36.6981327013835,-4.43922770108342,Regatul Spaniei,"Calle Concejal Muñoz Cerván nº 3, módulo 3 (edificiul Tabacalera), Salón de Actos de Participación Ciudadana, Málaga",or. Malaga,or. Malaga
+129,38/129,43.4579160464293,-3.82511120348861,Regatul Spaniei,"Calle Alta, no. 133, Mercado México, Santander",or. Santander,or. Santander
+130,38/130,39.454997561016,-0.408977300040047,Regatul Spaniei,"Career de Rei Said, S/N, CP 46014, Valencia",or. Valencia,or. Valencia
+131,38/131,38.9142463114448,-77.0466794159846,Statele Unite ale Americii,"2101 S Street N.W., Washington DC 20008","or. Washington, DC (sediul misiunii)","or. Washington, DC (sediul misiunii)"
+132,38/132,40.6129425722282,-73.9626170901716,Statele Unite ale Americii,"1827 Coney Island Ave, Brooklyn, NY 11230, Restaurant Moldova","or. New York, NY","or. New York, NY"
+133,38/133,35.5991952437444,-82.5508048511058,Statele Unite ale Americii,"Four Points by Sheraton Asheville Downtown 22 Woodfin St, Asheville, NC 28801","or. Asheville, NC","or. Asheville, NC"
+134,38/134,33.955305244016,-83.9876846154684,Statele Unite ale Americii,"165 S Clayton Str, Lawrenceville, GA 30046 Lawrenceville First Baptist Church","or. Atlanta, GA","or. Atlanta, GA"
+135,38/135,42.3606450811312,-71.2002574627203,Statele Unite ale Americii,"344 Watertown St, Newton, MA 02458","or. Boston, MA","or. Boston, MA"
+136,38/136,42.0139084594642,-87.7909952790632,Statele Unite ale Americii,"7280 N Caldwell Ave., Niles, IL 60714 Logos Christian Academy","or. Chicago, IL","or. Chicago, IL"
+137,38/137,33.0693683409222,-96.7752789958949,Statele Unite ale Americii,"4140 Legacy Drive, Suite 300,Plano, TX 75024 Edelweiss School of Music","or. Dallas, TX","or. Dallas, TX"
+138,38/138,39.7416592445897,-105.065359351309,Statele Unite ale Americii,"1555 Jay St., Lakewood, CO, 8011 Romanian Orthodox Church St. John the Hozevite (Biserica Ortodoxă Românească ""Sf. Ioan Hozevitul"")","or. Denver, CO","or. Denver, CO"
+139,38/139,45.0918519239257,-93.4294762829479,Statele Unite ale Americii,"11801 Fountains Way N, Maple Grove, MN 55369","or. Minneapolis, MN","or. Minneapolis, MN"
+140,38/140,28.4386037696998,-81.4282829080972,Statele Unite ale Americii,"Orlando-John Young Parkway 7500 Futures Drive, Orlando, FL 32819","or. Orlando, FL","or. Orlando, FL"
+141,38/141,38.6502115244257,-121.32815816398,Statele Unite ale Americii,"4715 Manzanita Ave, Carmichael, CA 95608","or. Sacramento, CA","or. Sacramento, CA"
+142,38/142,47.251403740846,-122.245749273786,Statele Unite ale Americii,"1050 Butte Ave SE, Pacific WA 98047","or. Seattle, WA","or. Seattle, WA"
+143,38/143,36.0147508725306,-115.241003473224,Statele Unite ale Americii,"6787 W Gary Ave, Las Vegas, NV 89139 Beyoglu","or. Las Vegas, NV","or. Las Vegas, NV"
+144,38/144,25.3512581962302,51.5157674737272,Statul Qatar,"Vila 151, str. 826 Al Mabahej, Area 66 Al Dafna, or. Doha, Statul Qatar.",or. Doha (sediul misiunii),or. Doha (sediul misiunii)
+145,38/145,59.3432580502986,18.0723056543263,Regatul Suediei,"11432, Engelbrektsgatan 10, et. 3",or. Stockholm (sediul misiunii),or. Stockholm (sediul misiunii)
+146,38/146,39.9303086870568,32.8447716527008,Republica Turcia,"Hotel İçkale, Maltepe, Gazi Mustafa Kemal Blv. No:89, 06570 Çankaya/Ankara",or. Ankara,or. Ankara
+147,38/147,41.0370663324755,28.9927308400729,Republica Turcia,"Inönü cad. № 18, D.1, Gümüşsuyu Palas, 34437, Ömer Avni Mahallesi, Istanbul",or. Istanbul (sediul Consulatului General),or. Istanbul (sediul Consulatului General)
+148,38/148,50.4110824751909,30.5387198411926,Ucraina,"or. Kiev, str. Yagotinska 2",or. Kiev (sediul misiunii),or. Kiev (sediul misiunii)
+149,38/149,46.4322902328131,30.7581663255946,Ucraina,"or Odesa, str. Posmitîi 2/2 ""Б""",or. Odesa (sediul Consulatului),or. Odesa (sediul Consulatului)
+150,38/150,47.514833496604,19.0275911262791,Republica Ungară,"1024 Budapest, Ady Endre utca 16",or. Budapesta (sediul misiunii),or. Budapesta (sediul misiunii)

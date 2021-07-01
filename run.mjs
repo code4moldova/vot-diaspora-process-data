@@ -7,7 +7,7 @@ const data = JSON.parse(fs.readFileSync('./input.geojson'))
 const sectiiFinale = data.features
     .sort((a, b) => a.properties.Sectia_de_vot - b.properties.Sectia_de_vot)
     .map((feature, index) => {
-        const [Latitude, Longitude] = feature.geometry.coordinates
+        const [Longitude, Latitude] = feature.geometry.coordinates
         const { Tara, Adresa, Sectia_de_vot, Localitatea_diaspora } = feature.properties
 
         // Replace multiple spaces or newlines with a single space, trim
